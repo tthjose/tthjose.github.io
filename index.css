@@ -1,0 +1,31 @@
+@font-face {
+    font-family: "nunito";
+    src: url(asset/font/Nunito-VariableFont.ttf);
+}
+body {
+    background-color: slategray;
+    font-family: "nunito";
+}
+h1 {
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+.service-icon {
+    height: 60px;
+    width: 60px;
+}
+#services-info {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.service-info-component {
+    width: 360px;
+    justify-items: center;
+}
+.service-info-figure {
+    text-align: center;
+}
+
