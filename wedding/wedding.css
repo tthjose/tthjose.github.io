@@ -1,3 +1,12 @@
+@font-face {
+    font-family: "nunito";
+    src: url(../asset/font/Nunito-VariableFont.ttf);
+}
+html {
+    font-family: "nunito";
+    text-align: center;
+    color: white;
+}
 header {
     background-color: wheat;
     padding: 3px;
@@ -19,3 +28,23 @@ body {
 .icon-main {
     max-width: 100%;
 }
+footer {
+    color: whitesmoke;
+    text-align: center;
+    font-size: 16px;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: gray;
+    padding: 10px;
+}
+h1 {
+    font-size: 40px;
+}
+p {
+    font-size: 24px;
+}
+#h1-description {
+    font-style: italic;
+}  
