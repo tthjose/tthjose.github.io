@@ -1,18 +1,30 @@
 body {
     background-color: black;
+    margin-bottom: 0px;
 }
 h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: white;
+    text-align: center;
 }
 iframe {
-    width: 600px;
-    height: 400px;
     margin: 10px;
     padding: 25px;
+}
+#mete-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+#forecast {
+    text-align: center;
 }
 p {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: white;
-    font-size: 10px;
+    font-size: 16px;
+    text-align: center;
+    background-color: gray;
+    margin-bottom: 0px;
 }

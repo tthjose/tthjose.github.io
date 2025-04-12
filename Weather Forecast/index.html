@@ -4,16 +4,23 @@
 <head>
     <meta charset="utf-8" />
     <title>Hanoi Weather observation and Alert</title>
-    <meta http-equiv="refresh" content="180"> <! -- Add reload every 3 minutes -->
+    <meta http-equiv="refresh" content="180"> <!-- Add reload every 3 minutes -->
     <link rel="stylesheet" type="text/css" href="StyleSheet1.css" />
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
 
     <h2>Current time is: <span id="time"></span></h2>
         <script src="service_Time.js"> </script>
-        <iframe src="https://www.meteoblue.com/en/weather/maps/widget/hanoi_vietnam_1581130?windAnimation=0&gust=0&satellite=0&satellite=1&cloudsAndPrecipitation=0&temperature=0&temperature=1&sunshine=0&extremeForecastIndex=0&geoloc=fixed&tempunit=C&windunit=km%252Fh&lengthunit=metric&zoom=7&autowidth=auto" frameborder="0" scrolling="NO" allowtransparency="true" sandbox="allow-same-origin allow-scripts allow-popups allow-popups-to-escape-sandbox" style="width: 600px; height: 400px"></iframe>
+        <div id="mete-wrap">
+        <iframe width="600" height="400" src="https://embed.windy.com/embed.html?type=map&location=coordinates&metricRain=mm&metricTemp=°C&metricWind=km/h&zoom=9&overlay=satellite&product=satellite&level=surface&lat=20.997&lon=105.826&message=true" frameborder="0"></iframe>
         <iframe width="600" height="400" src="https://embed.windy.com/embed2.html?lat=21.051&lon=105.903&detailLat=21.282&detailLon=105.902&width=600&height=400&zoom=9&level=surface&overlay=radar&product=radar&menu=&message=true&marker=&calendar=now&pressure=true&type=map&location=coordinates&detail=&metricWind=km%2Fh&metricTemp=%C2%B0C&radarRange=-1" sandbox ="allow-scripts" frameborder="0"></iframe>
-        <p> To Milk, with love ❤️ </p>       
+        </div>
+        <div id="forecast">
+            <iframe width="800" height="187" src="https://embed.windy.com/embed.html?type=forecast&location=coordinates&detail=true&detailLat=21.016370732656398&detailLon=105.7770300942691&metricTemp=°C&metricRain=mm&metricWind=km/h" frameborder="0"></iframe>
+        </div>
+        <footer>
+            <p> To Milk, with love ❤️ </p> 
+        </footer>
 </body>
 </html>
