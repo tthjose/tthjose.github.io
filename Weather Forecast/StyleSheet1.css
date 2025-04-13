@@ -3,12 +3,11 @@ body {
     margin-bottom: 0px;
 }
 h2 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: "Courier New", monospace;
     color: white;
     text-align: center;
 }
 iframe {
-    margin: 10px;
     padding: 25px;
 }
 #mete-wrap {
@@ -20,11 +19,17 @@ iframe {
 #forecast {
     text-align: center;
 }
-p {
+footer {
+    position:fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: white;
     font-size: 16px;
     text-align: center;
     background-color: gray;
-    margin-bottom: 0px;
+}
+p {
+    margin: 0px;
 }
