@@ -1,6 +1,15 @@
 {
 "quote": {
-   "daily": ["Buoi sang zui ze!", "Nghi tay an trua nao","Chieu it viec nha!", "Tat may ze thui!", "404 - Not Found"],
-   "bad-mood": ["Het suc binh tinh neoo!", "Thu luon dung, cac anh khac luon sai"]
+   "daily": ["Buoi sang zui ze!", "Nghi tay quay com!","Chieu it viec nha!", "Tat may ze thui!", "404 - Not Found!"],
+   "joke": ["Coder - Code do","Not a bug, a feature"],
+   "bad-mood-0": ["Het suc binh tinh,", "Dieu 1: Thu luon dung,"],
+   "bad-mood-1": ["dau hang co do", "Neu sai xem lai Dieu 1" ],
+   "good-mood-0": ["Co gi ngon thi phan T"],
+   "good-mood-1": ["Co gi dep thi khoe T"]
+   },
+"alert": {
+   "id": [0],
+   "time": [12],
+   "content": [""]
    }
 }
