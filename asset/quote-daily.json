@@ -3,13 +3,13 @@
    "daily": ["Buoi sang zui ze!", "Nghi tay quay com!","Chieu it viec nha!", "Tat may ze thui!", "404 - Not Found!"],
    "joke": ["Coder - Code do","Not a bug, a feature","Song nay - stress mai","O hien - Gap phien","4","5","6","7","8","9","10"],
    "sad-0": ["Het suc binh tinh,", "Thu luon dung,","Ra pantry","Develope~","Khong duoc danh","Goi cai nech ra,","Don't give up!","7","8","9","10","11","12","13","14","15"],
-   "sad-1": ["dau hang co do", "Neu sai xem lai tren","Thit cua H cai banh","Lap trinh dien","dong nghiep","nho mot soi nao!","Akiramenaide!","7","8","9","10","11","12","13","14","15"],
+   "sad-1": ["dau hang co do", "Neu sai xem lai tren","Thit cua T cai banh","Lap trinh dien","dong nghiep","nho mot soi nao!","Akiramenaide!","7","8","9","10","11","12","13","14","15"],
    "happy-0": ["0","Toi tai gioi","Lam vi dam me","Nghe chon nguoi,","Da co ny,","Viec nhe luong cao","6","7","8","9","10","11","12","13","14","15"],
    "happy-1": ["0","Ban cung tam","Ai che thi minh chui","Chu Thu chon tien","ny rat nhay :>","Cao huyet ap","6","7","8","9","10","11","12","13","14","15"]
    },
 "alert": {
-   "id": [1],
-   "time": [23],
-   "content": ["Testing"]
+   "id": 1,
+   "time": 23,
+   "content": "Testing"
    }
 }
