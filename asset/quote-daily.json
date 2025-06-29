@@ -2,8 +2,8 @@
 "quote": {
    "daily": ["Gut mo-ning", "Lunch time","Good afternoon", "Tat may!", "404 - Not Found!"],
    "joke": ["Ko nhan bug sau 16h","Not a bug, a feature","Song nay - stress mai","O hien - Gap phien","Biet the meo di lam","Ha loi ko voi dc dau","Khong dc chui khach","Giai cuu ThuNTM","Ko hieu? Google it!","3x tuan nua la Tet","KPI - Ko Phai Toi"],
-   "sad-0": ["Het suc binh tinh,", "Nguoi giau","Khong duoc","Develope~","Khong duoc danh","Goi cai nech ra,","Don't give up!","Xinh gai","Dam me di lam","Da den gio","Neu task khong di","11","12","13","14","15"],
-   "sad-1": ["dau se co do", "tinh cam","bat sep","Lap trinh dien","dong nghiep","nho mot soi nao!","Akiramenaide!","lam on dung co buon","Lam minh lam may vs H","chot don shopee","thi mk di du lich","11","12","13","14","15"],
+   "sad-0": ["Het suc binh tinh,", "Nguoi giau","Khong duoc","Develope~","Khong duoc danh","Goi cai nech ra,","Don't give up!","Xinh gai","Dam me di lam","Da den gio","Neu task khong di","Anh chi gioi HTML:","12","13","14","15"],
+   "sad-1": ["dau se co do", "tinh cam","bat sep","Lap trinh dien","dong nghiep","nho mot soi nao!","Akiramenaide!","lam on dung co buon","Lam minh lam may vs H","chot don shopee","thi mk di du lich","Hom Toi Moi Lam","12","13","14","15"],
    "happy-0": ["Nguoi chon tien,","Toi tai gioi","Lam vi dam me","Nghe chon nguoi,","Da co ny,","Viec nhe luong cao","Song sau tinh lang,","I tried so hard","Lam vi dam me","Ve som hon","Ban beta nen","Mat ngu la tai cty","12","13","14","15"],
    "happy-1": ["chu Thu chon H","Ban cung tam","Ai che thi minh chui","Thu chon tien","ny rat nhay :>","Cao huyet ap","luong thap hay cuoi","and got sofa","nhung che luong thap","hom truoc la duoc","hay nhe tay voi dev","Chu ko phai tai shopee","12","13","14","15"]
    },
