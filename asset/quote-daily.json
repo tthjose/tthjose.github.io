@@ -1,14 +1,14 @@
 {
 "quote": {
-   "daily": ["Buoi sang zui ze!", "Nghi tay quay com!","Chieu it viec nha!", "Tat may ze thui!", "404 - Not Found!"],
-   "joke": ["Coder - Code do","Not a bug, a feature","Song nay - stress mai","O hien - Gap phien","4","5","6","7","8","9","10"],
-   "sad-0": ["Het suc binh tinh,", "Thu luon dung,","Ra pantry","Develope~","Khong duoc danh","Goi cai nech ra,","Don't give up!","7","8","9","10","11","12","13","14","15"],
-   "sad-1": ["dau hang co do", "Neu sai xem lai tren","Thit cua T cai banh","Lap trinh dien","dong nghiep","nho mot soi nao!","Akiramenaide!","7","8","9","10","11","12","13","14","15"],
-   "happy-0": ["0","Toi tai gioi","Lam vi dam me","Nghe chon nguoi,","Da co ny,","Viec nhe luong cao","6","7","8","9","10","11","12","13","14","15"],
-   "happy-1": ["0","Ban cung tam","Ai che thi minh chui","Chu Thu chon tien","ny rat nhay :>","Cao huyet ap","6","7","8","9","10","11","12","13","14","15"]
+   "daily": ["Gut mo-ning", "Lunch time","Good afternoon", "Tat may!", "404 - Not Found!"],
+   "joke": ["0","Not a bug, a feature","Song nay - stress mai","O hien - Gap phien","Biet the meo di lam","Ha loi ko voi dc dau","Khong dc chui khach","Giai cuu ThuNTM","8","9","10"],
+   "sad-0": ["Het suc binh tinh,", "Nguoi giau","Khong duoc","Develope~","Khong duoc danh","Goi cai nech ra,","Don't give up!","Xinh gai","8","9","10","11","12","13","14","15"],
+   "sad-1": ["dau se co do", "tinh cam","bat sep","Lap trinh dien","dong nghiep","nho mot soi nao!","Akiramenaide!","lam on dung co buon","8","9","10","11","12","13","14","15"],
+   "happy-0": ["Nguoi chon tien,","Toi tai gioi","Lam vi dam me","Nghe chon nguoi,","Da co ny,","Viec nhe luong cao","Song sau tinh lang,","I tried so hard","Lam vi dam me","9","10","11","12","13","14","15"],
+   "happy-1": ["chu Thu chon H","Ban cung tam","Ai che thi minh chui","Thu chon tien","ny rat nhay :>","Cao huyet ap","luong thap hay cuoi","and got sofa","nhung che luong thap","9","10","11","12","13","14","15"]
    },
 "alert": {
-   "id": 1,
+   "id": 0,
    "time": 23,
    "content": "Testing"
    }
