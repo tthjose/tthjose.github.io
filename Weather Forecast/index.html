@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <title>Hanoi Weather observation and Alert</title>
-    <meta http-equiv="refresh" content="300"> <!-- Add reload every 3 minutes -->
+    <!--- <meta http-equiv="refresh" content="300">  //Add reload every 5 minutes --> 
     <link rel="stylesheet" type="text/css" href="StyleSheet1.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
@@ -13,20 +13,28 @@
         <div id="icon-wrap">
             <img src="icon.png" alt="icon">
         </div>
-        <span id="title"> Weather Observer and Forecast </span>
+        <div>
+            <p><span id="title"> Weather Observer and Forecast </span> </p>
+            <p><span id="subtitle">Hanoi</span> </p>
+        </div>
         <span id="time"></span>
     </header>
-    <h2></h2>
-        <div id="mete-wrap">
-        <iframe width="500" height="350" src="https://embed.windy.com/embed.html?type=map&location=coordinates&metricRain=mm&metricTemp=°C&metricWind=km/h&zoom=9&overlay=satellite&product=satellite&level=surface&lat=20.997&lon=105.826&message=true" frameborder="0"></iframe>
-        <iframe width="500" height="350" src="https://embed.windy.com/embed2.html?lat=21.051&lon=105.903&detailLat=21.282&detailLon=105.902&width=600&height=400&zoom=9&level=surface&overlay=radar&product=radar&menu=&message=true&marker=&calendar=now&pressure=true&type=map&location=coordinates&detail=&metricWind=km%2Fh&metricTemp=%C2%B0C&radarRange=-1" sandbox ="allow-scripts" frameborder="0"></iframe>
+    <div id="main">
+        <div id="frame-1">
+            <iframe width="500" height="386" src="https://embed.windy.com/embed.html?type=map&location=coordinates&metricRain=mm&metricTemp=°C&metricWind=km/h&zoom=9&overlay=satellite&product=satellite&level=surface&lat=20.997&lon=105.826&message=true" frameborder="0"></iframe>
+            <iframe width="500" height="386" src="https://embed.windy.com/embed2.html?lat=21.051&lon=105.903&detailLat=21.282&detailLon=105.902&width=600&height=400&zoom=9&level=surface&overlay=radar&product=radar&menu=&message=true&marker=&calendar=now&pressure=true&type=map&location=coordinates&detail=&metricWind=km%2Fh&metricTemp=%C2%B0C&radarRange=-1" sandbox ="allow-scripts" frameborder="0"></iframe>
         </div>
-        <div id="forecast">
-            <iframe width="720" height="200" src="https://embed.windy.com/embed.html?type=forecast&location=coordinates&detail=true&detailLat=21.016370732656398&detailLon=105.7770300942691&metricTemp=°C&metricRain=mm&metricWind=km/h" frameborder="0"></iframe>
+        <div id="frame-2">
+        <iframe width="400" height="772" src="https://embed.windy.com/embed.html?type=map&location=coordinates&metricRain=mm&metricTemp=°C&metricWind=km/h&zoom=5&overlay=rain&product=ecmwf&level=surface&lat=13.241&lon=107.209&detailLat=21.018&detailLon=105.846&marker=true&pressure=true&message=false" frameborder="0"></iframe>
         </div>
-        <footer>
+        <div id="frame-3">
+            <iframe width="628" height="572" src="http://longbien.duckdns.org:1080/index.php" frameborder="0"></iframe>
+            <iframe width="628" height="200" src="https://embed.windy.com/embed.html?type=forecast&location=coordinates&detail=true&detailLat=21.016370732656398&detailLon=105.7770300942691&metricTemp=°C&metricRain=mm&metricWind=km/h" frameborder="0"></iframe>
+        </div>
+    </div>
+    <footer>
             <p> To Milk, with love ❤️ </p> 
-        </footer>
-        <script src="service_Time.js"> </script>
+    </footer>
+    <script src="service_Time.js"> </script>
 </body>
 </html>

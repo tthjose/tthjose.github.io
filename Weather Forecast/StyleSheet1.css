@@ -7,45 +7,54 @@ header {
     flex-wrap: nowrap;
 }
 #icon-wrap {
-    width: 80px;
-    height: 80px;
+    width: 60px;
+    height: 60px;
 }
 img {
     max-height: 100%;
 }
 #title {
-    padding-top: 20px;
+    padding-left: 10px;
     font-size: 24px;
     color: white;
     font-family: "merriweather";
 }
+#subtitle {
+    padding-left: 10px;
+    font-size: 20px;
+    color: white;
+    font-family: "merriweather";
+}
 #time {
+    top: 15px;
     color: white;
     font-size: 24px;
     position: absolute;
-    padding-top: 20px;
     right: 0px;
 }
 body {
     background-color: black;
     margin-bottom: 0px;
 }
-h2 {
-    font-family: "Courier New", monospace;
-    color: white;
-    text-align: center;
+#main {
+    border-top: solid;
+    border-top-width: 2px;
+    border-top-color: white;
 }
 iframe {
-    padding: 25px;
+    padding: 0px;
 }
-#mete-wrap {
+#main {
     display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
+    flex-wrap: nowrap;
 }
-#forecast {
-    text-align: center;
+#frame-1 {
+    display: grid;
+    grid-template-rows: 1fr;
+}
+#frame-3 {
+    display: grid;
+    grid-template-rows: 1fr;
 }
 footer {
     position:fixed;
