@@ -2,6 +2,7 @@
     font-family: "merriweather";
     src: url(Merriweather-Regular.ttf);
 }
+@media only screen and (min-width: 500px) {
 header {
     display: flex;
     flex-wrap: nowrap;
@@ -40,13 +41,11 @@ body {
     border-top: solid;
     border-top-width: 2px;
     border-top-color: white;
+    display: flex;
+    flex-wrap: nowrap;
 }
 iframe {
     padding: 0px;
-}
-#main {
-    display: flex;
-    flex-wrap: nowrap;
 }
 #frame-1 {
     display: grid;
@@ -69,4 +68,77 @@ footer {
 }
 p {
     margin: 0px;
+}
+}
+@media only screen and (max-width: 500px) {
+header {
+    display: flex;
+    flex-wrap: wrap;
+}
+#icon-wrap {
+    width: 60px;
+    height: 60px;
+}
+img {
+    max-height: 100%;
+}
+#title {
+    padding-left: 10px;
+    font-size: 18px;
+    color: white;
+    font-family: "merriweather";
+}
+#subtitle {
+    padding-left: 10px;
+    font-size: 14px;
+    color: white;
+    font-family: "merriweather";
+}
+#time {
+    top: 30px;
+    color: white;
+    font-size: 16px;
+    position: absolute;
+    right: 0px;
+}
+body {
+    background-color: black;
+    margin-bottom: 0px;
+}
+#main {
+    border-top: solid;
+    border-top-width: 2px;
+    border-top-color: white;
+    display: grid;
+    grid-template-rows: 1fr;
+}
+iframe {
+    padding: 0px;
+    max-width: 95%;
+}
+#frame-1 {
+    display: grid;
+    grid-template-rows: 1fr;
+}
+#frame-2 {
+    display: none;
+}
+#frame-3 {
+    display: grid;
+    grid-template-rows: 1fr;
+}
+footer {
+    position:fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    background-color: gray;
+}
+p {
+    margin: 0px;
+}
 }
