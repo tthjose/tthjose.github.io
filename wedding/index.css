@@ -1,0 +1,200 @@
+@font-face {
+    font-family: "merriweather";
+    src: url(asset/font/Merriweather-Regular.ttf);
+}
+html {
+    font-family: "merriweather";
+}
+/* To querry screen size and css accordingly*/
+@media only screen and (max-width: 800px) {
+    #menu {
+        display: none;
+        grid-area: menu;
+    }
+    .menu-button {
+        text-align: center;
+        padding: 0px 0;
+        background-color: white;
+        border-radius: 10px;
+    }
+    header {
+        background-color: white;
+        padding: 3px;
+        display: grid;
+        grid-template-areas: 
+            "burger head"
+            "menu menu"
+    }
+    #burger-menu {
+        color: white;
+        font-size: 20px;
+        height: 40px;
+        width: 40px;
+        position: relative;
+        top: 20px;
+        grid-area: burger;
+    }
+    #burger-menu-button {
+        border: none;
+        background-color: white;
+    }
+    #burger-menu img {
+        height: 100%;
+        width: 100%;
+    }
+    #head {
+        text-align: center;
+        display:flex;
+        flex-wrap: nowrap;
+        grid-area: head;
+    }
+    #head-space {
+        display: none;
+    }
+    .menu-text {
+        color: rgb(243, 139, 4);
+        text-decoration: none;
+    }
+    body {
+        background: rgb(255, 222, 194, 0.5);
+        margin: 0px;
+    } 
+    #head-date {
+        display: inline-block;
+        vertical-align: bottom;
+        height: 80px;
+    }
+    #head-date-dl {
+        font-size: 14px;
+        color: rgb(243, 139, 4);
+    }
+    #head-date-al {
+        font-size: 12px;
+        color: rgb(243, 139, 4);
+    }
+    .icon-main {
+        max-width: 100%;
+    }
+    .icon-main-wrap {
+        width: 80px;
+        height: 80px;
+        margin-right: 20vw;
+        display: inline-block;
+        vertical-align: bottom;
+    }
+    #navbar-scroll {
+        position: fixed; 
+        top: -100px; 
+        width: 100%; 
+        transition: top 0.3s; 
+        background-color: peachpuff;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+        height: 46px;
+    }
+    footer {
+        color: whitesmoke;
+        text-align: center;
+        font-size: 12px;
+        position: sticky;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+        background-color: gray;
+        padding: 6px;
+    }    
+}
+@media only screen and (min-width: 801px) {
+    header {
+        background-color: white;
+        padding: 5px;
+    }
+    body {
+        background: rgb(255, 222, 194, 0.5);
+        margin: 0px;
+    }
+    #burger-menu {
+        display: none;
+    } 
+    #head {
+        text-align: left;
+        margin-bottom: 10px;
+        width: 300px;
+    }
+    #head-space {
+        height: 40px;
+        width: 50px;
+        display: inline-block;
+        vertical-align: bottom;
+    }
+    .icon-main-wrap {
+        width: 75px;
+        height: 75px;
+        display: inline-block;
+        vertical-align: bottom;
+    }
+    #head-date {
+        display: inline-block;
+        vertical-align: bottom;
+    }
+    #head-date-dl {
+        font-size: 14px;
+        text-align: center;
+        color: rgb(243, 139, 4);
+    }
+    #head-date-al {
+        font-size: 14px;
+        text-align: center;
+        color: rgb(243, 139, 4);
+    }
+    .icon-main {
+        max-width: 100%;
+    }
+    #menu {
+        position: absolute;
+        right: 15px;
+        top: 20px;
+        display: flex;
+        justify-content: end;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    .menu-button {
+        height: 80px;
+        width: 120px;
+        line-height: 50px; /* This is to center text inside button */
+        text-align: center;
+        padding: 0px 0;
+        border-radius: 10px;
+    }
+    .menu-text {
+        color: rgb(243, 139, 4);
+        text-decoration: none;
+        text-align: justify;
+    }
+    #navbar-scroll {
+        position: fixed; 
+        top: -100px; 
+        width: 100%;
+        z-index: 9999; 
+        transition: top 0.3s; 
+        background-color: peachpuff;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+        height: 50px;
+    }
+    footer {
+        color: whitesmoke;
+        text-align: center;
+        font-size: 13px;
+        position: fixed;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+        background-color: gray;
+        padding: 4px;
+    }    
+}
+

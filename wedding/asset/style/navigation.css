@@ -1,0 +1,161 @@
+.navigation-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#navigation {
+    background-color: azure;
+}
+@media only screen and (max-width: 1220px) {
+    .invitation {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .invitation-letter-wrap {
+        height: 80vw;
+        width: 60vw;
+        padding: 10px;
+    }
+    .invitation-letter {
+        height: 100%;
+    }
+    .navigation-box {
+        gap: 5vw;
+    }
+    .vertical-line {
+        display: none;
+    }
+    .navigation-box-inner {
+        background-image: url(../images/background-note.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 80vw;
+        height: 100%;
+        text-decoration: white;
+        text-align: center;
+    }
+    .map {
+        width: 65vw;
+        height: 55vw;
+    }
+    h1 {
+        color: rgb(243, 139, 4);
+        font-size: 24px;
+        text-align: center;
+        margin-top: 70px;
+    }
+    h2 {
+        color: rgb(243, 139, 4);
+        padding-top: 3vh;
+        border-bottom: 1px solid gray;
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
+    address {
+        color: rgb(243, 139, 4);
+    }
+}
+/* @media only screen and (min-width: 621px) {
+    .invitation {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .invitation-letter-wrap {
+        height:600px;
+        width: 450px;
+        padding: 30px;
+    }
+    .invitation-letter {
+        height: 100%;
+    }
+    .navigation-box {
+        padding-bottom: 50px;
+        gap: 3vw;
+    }
+    .vertical-line {
+        display: none;
+    }
+    .navigation-box-inner {
+        background-image: url(../images/background-note.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 40vw;
+        height: 50vw;
+        text-decoration: white;
+        text-align: center;
+    }
+    .map {
+        width: 33vw;
+        height: 33vw;
+    }
+    h1 {
+        color: rgb(243, 139, 4);
+        font-size: 40px;
+        text-align: center;
+        margin-top: 80px;
+    }
+    h2 {
+        color: rgb(243, 139, 4);
+        padding-top: 60px;
+    }
+    address {
+        color: rgb(243, 139, 4);
+    }
+}
+*/
+@media only screen and (min-width: 1221px) {
+    .invitation {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .invitation-letter-wrap {
+        height:600px;
+        width: 450px;
+        padding: 30px;
+    }
+    .invitation-letter {
+        height: 100%;
+    }
+    .navigation-box {
+        padding-bottom: 50px;
+        gap: 3vw;
+    }
+    .navigation-box-inner {
+        background-image: url(../images/background-note.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 40vw;
+        height: 50vw;
+        text-decoration: white;
+        text-align: center;
+    }
+    .map {
+        width: 33vw;
+        height: 33vw;
+    }
+    h1 {
+        color: rgb(243, 139, 4);
+        font-size: 5vw;
+        text-align: center;
+        margin-top: 80px;
+    }
+    h2 {
+        color: rgb(243, 139, 4);
+        padding-top: 60px;
+        border-bottom: 1px solid gray;
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
+    address {
+        color: rgb(243, 139, 4);
+    }
+.vertical-line {
+  width: 1px;
+  background-color: black;
+  height: auto; 
+  align-self: stretch;
+}
+}

@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="vi-VN">
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="TTH" />
+    <meta 
+        name="description"
+        content="Đây là website đám cưới chúng mình, T&ampH. Chúng mình tự hào đang (và sẽ) code trang web này 100%." />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>T&H Wedding</title>
+    <link rel="stylesheet"href="index.css">
+    <link rel="stylesheet"href="asset/style/index.css">
+    <script src="script.js"></script> 
+</head>
+<body>
+    <div id="navbar-scroll">
+        <div style="height: 50px;width: 50px;vertical-align: bottom;padding-left: 30px;padding-right: 30px;">
+            <img 
+                src="asset/images/icon.png" 
+                alt="header icon" 
+                style="height:100%"
+                />
+        </div>
+        <div style="vertical-align: bottom; padding-left: 30px;padding-right: 30px;">
+            <p style="font-size:16px"> 08-11-2025 / 19 - 09 ÂL</p>
+        </div>
+    </div>
+    <header>
+        <div id="burger-menu">
+            <button id="burger-menu-button" type="button" onclick="menu()">
+                <img src="asset/images/burger-menu.svg" alt="menu button"/>
+            </button>
+        </div>
+        <div id="head">
+            <div class="icon-main-wrap">
+                <img 
+                    src="asset/images/icon.png" 
+                    alt="header icon" 
+                    class="icon-main"/>
+            </div>
+            <div style="display:inline-block;color:rgb(243, 139, 4)"><span>preview</span></div>
+            <div id="head-space"></div>
+            <div id="head-date">
+                <p id="head-date-dl"> 08-11-2025 </p>
+                <p id="head-date-al"> 19-09 ÂL</p>
+            </div>
+        </div>
+        <nav id="menu" style="display:none">
+            <div class="menu-button" class="menu-text">Trang chủ</div>
+            <div class="menu-button">
+                <a href="album.html" class="menu-text">Album ảnh</a>
+            </div>
+            <div class="menu-button">
+                <a href="navigation.html" class="menu-text">Chỉ đường</a>
+            </div>
+            <div class="menu-button">
+                <a href="gift.html" class="menu-text">Quà mừng</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+    <article>
+    <section class="index-welcoming">
+        <div id="index-welcoming-portrait-wrapper">
+        <img
+            src="asset/images/portrait-official.jpg"
+            alt="Ảnh cưới"
+            id="index-welcoming-portrait"
+            />
+        </div>
+        <div id="index-welcoming-text">
+            <h1>Trọng Hiếu & Minh Thư</h1>
+            <p>Quyết định về chung một nhà!</p>
+            <p>Because we are True Happiness!</p>
+            <p> <span id="h1-description"><strong> 08 - 11 - 2025</strong></span></p> 
+        </div>
+    </section>
+    <section>
+        <h2> Về chúng mình</h2>
+        <div id="index-about-wrapper">
+        <div class="index-about" id="index-about-vl">
+            <figure id="index-about-h">
+            <img
+                alt="Ảnh của Hiếu"
+                src="asset/images/index/index-portrait-h.jpg"
+                class="index-about-portrait"
+                />
+            <figcaption class="index-about-name">Hiếu</figcaption>
+            <figcaption class="index-about-description">[---]</figcaption>
+            </figure>
+        </div>
+        <div class="index-about">
+            <figure id="index-about-t">
+                <img 
+                    alt="Ảnh của Thư"
+                    src="asset/images/index/index-portrait-t.jpg"
+                    class="index-about-portrait"
+                    id="index-about-portrait-t"
+                    />
+                <figcaption class="index-about-name">Thư</figcaption>
+                <figcaption class="index-about-description">[---]</figcaption>
+            </figure>
+        </div>
+    </section>
+    <section id="index-story-wrap" style="display:none">
+        <h2>Câu chuyện của chúng tớ</h2>
+        <p><span class="index-story">-Thời gian quen nhau: Đây là câu chuyện mà bây giờ mỗi lần nhắc lại chúng mình đều cảm thấy kỳ lạ...</span></p>
+        <p><span class="index-story">-Năm đầu và Covid</span></p>
+        <p><span class="index-story">-Yêu xa do Tây Ban Nha</span></p>
+        <p><span class="index-story">-Quyết định về chung một nhà</span></p>
+        <p><span class="index-story">-Thời gian quen nhau: Đây là câu chuyện mà bây giờ mỗi lần nhắc lại chúng mình đều cảm thấy kỳ lạ...</span></p>
+        <p><span class="index-story">-Năm đầu và Covid</span></p>
+        <p><span class="index-story">-Yêu xa do Tây Ban Nha</span></p>
+        <p><span class="index-story">-Quyết định về chung một nhà</span></p>
+    </section>
+    <section>
+        <h2>Khoảnh khắc của chúng tớ</h2>
+        <div id="index-album-1">
+            <div id="index-album-1-1">
+                <img
+                    class="index-album-image"
+                    id="image-1"
+                    src="asset/images/index/image-album-a2.JPG"
+                    alt=""
+                    />
+            </div>
+            <div id="index-album-1-2">
+                <img
+                    class="index-album-image"
+                    id="image-2" 
+                    src="asset/images/index/image-album-a3.JPG"
+                    alt=""
+                    />
+            </div>
+        </div>
+            <div style="text-align: center;height:50px">
+                <img
+                    class="index-album-decoration" 
+                    src="asset/images/index-album-decoration-flower.png"
+                    alt="decoration flower"
+                    />
+            </div>
+         <div id="index-album-2">
+            <div id="index-album-2-1">
+                <img
+                    class="index-album-image"
+                    id="image-3" 
+                    src="asset/images/index/image-album-a1.JPG"
+                    alt=""
+                    />
+            </div>                       
+            <div id="index-album-2-2">
+                <img
+                    class="index-album-image"
+                    id="image-4" 
+                    src="asset/images/index/image-album-a5.JPG"
+                    alt=""
+                    />
+            </div>
+            <div id="index-album-2-3">
+                <img
+                    class="index-album-image"
+                    id="image-5" 
+                    src="asset/images/index/image-album-a6.JPG"
+                    alt=""
+                    />
+            </div>
+        </div>
+        <figure>
+            <p>[---]</p>
+        </figure>
+    </section>
+    <section id="index-wishes-wrap">
+        <h2>Lời nhắn cho cặp đôi</h2>
+        <div>
+            <figure>
+                <img 
+                    src="asset/images/index-message-background.jpg"
+                    alt=""
+                    id="index-wishes-intro-background"
+                    />
+                <figcaption id="index-wishes-intro-text">
+                    <p class="index-wishes-intro-text-content">Gửi lời chúc cho cặp đôi thông qua Google Forms tại <a href="https://docs.google.com/forms/d/e/1FAIpQLScWrjgZIkXHmlPsyah8w_S8bB_eS1DogkNrc3EWCN-tFzd_iA/viewform?usp=header">đây</a>!</p>
+                    <p class="index-wishes-intro-text-content">Chúng mình cảm ơn mọi người đã gửi những lời chúc này.</p>
+                </figcaption>
+            </figure>
+                    </div>
+        <div id="index-wishes">
+            <div id="index-wishes-text-wrap" style="display:none">
+                <div class="index-wishes-component">
+                    <span class="index-wishes-component-name">An</span>
+                    <span class="index-wishes-component-content">Quen các bạn từ những ngày đầu, chúc hai bạn trăm năm hạnh phúc nhé!</span>
+                </div>
+                <div class="index-wishes-component">
+                    <span class="index-wishes-component-name">Quang Hùng</span>
+                    <span class="index-wishes-component-content">Quen các bạn từ những ngày đầu, chúc hai bạn trăm năm hạnh phúc nhé!</span>
+                </div>
+                <div class="index-wishes-component">
+                    <span class="index-wishes-component-name">Quang Hùng</span>
+                    <span class="index-wishes-component-content">Quen các bạn từ những ngày đầu, chúc hai bạn trăm năm hạnh phúc nhé!</span>
+                </div>
+                <div class="index-wishes-component">
+                    <span class="index-wishes-component-name">Quang Hùng</span>
+                    <span class="index-wishes-component-content">Quen các bạn từ những ngày đầu, chúc hai bạn trăm năm hạnh phúc nhé!</span>
+                </div>
+                <div class="index-wishes-component">
+                    <span class="index-wishes-component-name">Quang Hùng</span>
+                    <span class="index-wishes-component-content">Quen các bạn từ những ngày đầu, chúc hai bạn trăm năm hạnh phúc nhé!</span>
+                </div>
+                <div class="index-wishes-component">
+                    <span class="index-wishes-component-name">Quang Hùng</span>
+                    <span class="index-wishes-component-content">Quen các bạn từ những ngày đầu, chúc hai bạn trăm năm hạnh phúc nhé!</span>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+</article>
+</main>
+<footer>
+    Self-made with 100% love! ❤️
+</footer>
+</body>
+</html>

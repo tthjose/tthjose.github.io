@@ -1,0 +1,395 @@
+@font-face {
+    font-family: "send-flower";
+    src: url(../font/send-flower/SendFlowers-Regular.ttf);
+}
+@font-face {
+    font-family: "mea-culpa";
+    src: url(../font/mea-culpa/MeaCulpa-Regular.ttf); 
+}
+.index-about-name {
+    font-family: "mea-culpa";
+}
+@media only screen and (max-width: 800px) {
+    h1 {
+        text-align: center;
+        font-family: "mea-culpa";
+        font-size: 38px;
+        color: rgba(148, 121, 101, 0.9);
+    }
+    p {
+        font-size: 20px;
+        color: rgb(243, 139, 4);
+    }
+    #h1-description {
+        font-size: 20px;
+    }
+    h2 {
+    text-align: center;
+    color: rgba(148, 121, 101, 0.9);
+    font-size: 24px;
+    }
+h3 {
+    text-align: center;
+    color: white;
+    font-size: 18px;
+}
+.index-welcoming {
+    background-image: url(../images/index-welcoming-background-a.jpg);
+    background-size: contain;
+    padding-bottom: 10vh;
+}
+#index-welcoming-portrait-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+#index-welcoming-portrait {
+    margin-top: 10vh;
+    width: 60vw;
+    height: 100%;
+}
+#index-welcoming-text {
+    text-align: center;
+}
+#index-about-wrapper {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.index-about {
+    margin-left: 2vw;
+    margin-right: 2vw;
+    margin-top: 3vh;
+}
+#index-about-h {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+    "picture name"
+    "picture description";
+}
+#index-about-t {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+    "name picture"
+    "description picture";
+}
+#index-about-portrait-t {
+    position: relative;
+    right: -10vw;
+}
+.index-about-name {
+    text-align: center;
+    font-size: 44px;
+    color: rgb(243, 139, 4);
+    grid-area: name;
+}
+.index-about-description {
+    text-align: justify;
+    font-size: 18px;
+    grid-area: content;
+    color: rgb(243, 139, 4);
+    grid-area: description;
+}
+figure {
+    margin: 0px;
+}
+.index-about-portrait {
+    border-radius: 15px;
+    width: 35vw;
+    height: 43.75vw;
+    grid-area: picture;
+}
+#index-story-wrap {
+    background-image: url("../images/background.png");
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: multiply;
+}
+.index-story {
+    text-align: justify;
+}
+#index-album-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#index-album-1-1 {
+    text-align: center;
+}
+#index-album-1-2 {
+    text-align: center;
+}
+#index-album-2 {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 1.5fr;
+    position: relative;
+    top: -40px;
+}
+#image-1 {
+    height: 30vw;
+    width: 30vw;
+}
+#image-2 {
+    height: 30vw; 
+    width: 45vw;
+}
+#image-3 {
+    height: 25vw; 
+    width: 33vw;
+}
+#image-4 {
+    height: 25vw; 
+    width: 19.6vw;
+}
+#image-5 {
+    height: 25vw;
+    width: 37.5vw;
+}
+.index-album-decoration {
+    display: none;
+}
+#index-wishes-wrap {
+    background-color: aliceblue;
+}
+#index-wishes-intro-background {
+    width: 100vw;
+    height: 70vw;
+}
+#index-wishes-intro-text {
+    width: 40vw;
+    position: relative;
+    top: -35vw;
+    left: 8vw;
+}
+.index-wishes-intro-text-content {
+    font-size: 12px;
+    color: rgb(0,63,70);
+    text-align: justify;
+}
+#index-wishes {
+    background-image: url(../images/index-wishes-background.jpg);
+    background-size: cover;
+    width: 100vw;
+    height: 65vh;
+    margin: auto;
+    padding-bottom: 60px;
+    margin-top: -100px;
+}
+.index-wishes-component {
+    display: grid;
+    padding-top: 4vh;
+    padding-left: 5vw; 
+    padding-right: 5vw;
+}
+.index-wishes-component-name {
+    font-size: 24px;
+    color: rgb(0,63,70);
+}
+.index-wishes-component-content {
+    font-size: 16px;
+    color: rgb(0,63,70);
+    text-align: justify;
+}
+#index-wishes-text-wrap {
+    position: relative;
+    top: 70px;
+    height: 550px;
+    overflow-y: auto;
+}
+}
+@media only screen and (min-width: 801px) {
+    h1 {
+        text-align: center;
+        font-size: 58px;
+        font-family: "mea-culpa";
+        color: rgb(148, 121, 101);
+        margin-top: 80px;
+    }
+    p {
+        font-size: 28px;
+        color: rgb(243, 139, 4);
+        text-align: center;
+    }
+    #h1-description {
+        font-size: 40px;
+    }
+    h2 {
+    text-align: center;
+    color: rgb(148, 121, 101);
+    font-size: 36px;
+    padding: 10px;
+    }
+h3 {
+    text-align: center;
+    color: white;
+    font-size: 18px;
+}
+.index-welcoming {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    background-image: url(../images/index-welcoming-background.jpg);
+    background-size: cover;
+}
+#index-welcoming-text {
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+#index-welcoming-portrait-wrapper {
+    text-align: right;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+#index-welcoming-portrait {
+    width: 450px;
+    height: 100%;
+}
+#index-about-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.index-about {
+    padding: 15px;
+}
+#index-about-vl {
+    border-right: 2px solid black;
+}
+.index-about-name {
+    text-align: center;
+    font-size: 56px;
+    font-weight: bold;
+    color: white;
+    position: relative;
+    top: -100px;
+}
+.index-about-description {
+    display: inline-block;
+    width: 28vw;
+    text-align: justify;
+    font-size: 18px;
+    color: rgb(243, 139, 4);
+    position: relative;
+    top: -50px;
+}
+figure {
+    text-align: center;
+}
+.index-about-portrait {
+    border-radius: 25px;
+    width: 28vw;
+    height: 100%;
+}
+#index-story-wrap {
+    background-image: url("../images/background.png");
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: multiply;
+}
+.index-story {
+    text-align: justify;
+}
+#index-album-1 {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+#index-album-2 {
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+}
+.index-album-image {
+    border: 8px dashed rgba(244, 188, 179);
+}
+#index-album-1-1 {
+    text-align: right; 
+    margin-right: 6vw;
+}
+#index-album-1-2 {
+    text-align: left;
+    margin-left: 6vw;
+}
+#index-album-2-1 {
+    text-align: right;
+}
+#index-album-2-2 {
+    text-align: center;
+}
+#image-1 {
+    transform:rotate(10deg);
+    height: 25vw;
+    width: 25vw;
+}
+#image-2 {
+    height: 25vw; 
+    width: 37.5vw;
+}
+#image-3 {
+    height: 20vw; 
+    width: 30vw;
+}
+#image-4 {
+    transform:rotate(0deg);
+    height: 20vw; 
+    width: 13vw;
+}
+#image-5 {
+    height: 20vw;
+    width: 30vw;
+}
+.index-album-decoration {
+    height: 120px;
+    width: 120px;
+    position:relative;
+    left: 0px;
+    right: 0px;
+    top: -70px;
+}
+#index-wishes-wrap {
+    background-color: aliceblue;
+}
+#index-wishes-intro-background {
+    width: 70vw;
+    height: 50vw;
+}
+#index-wishes-intro-text {
+    width: 25vw;
+    position: relative;
+    top: -23vw;
+    left: 17vw;
+}
+.index-wishes-intro-text-content {
+    font-size: 22px;
+    color: rgb(0,63,70);
+    text-align: justify;
+}
+#index-wishes {
+    background-image: url(../images/index-wishes-background.jpg);
+    background-size: cover;
+    width: 70vw;
+    height: 800px;
+    margin: auto;
+    padding-bottom: 30px;
+    margin-top: -150px;
+}
+.index-wishes-component {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    padding-top: 4vh;
+}
+.index-wishes-component-name {
+    font-size: 40px;
+    color: rgb(0,63,70);
+}
+.index-wishes-component-content {
+    font-size: 20px;
+    color: rgb(0,63,70);
+    text-align: justify;
+    margin-left: 5vw;
+}
+#index-wishes-text-wrap {
+    position: relative;
+    top: 250px;
+    height: 550px;
+    padding-right: 4vw;
+    padding-left: 4vw;
+    overflow-y: auto;
+}
+}

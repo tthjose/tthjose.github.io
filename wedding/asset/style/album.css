@@ -1,0 +1,84 @@
+@media only screen and (max-width: 800px) {
+.gallery-wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+h1 {
+    text-align: center;
+    color: rgb(243, 139, 4);
+    font-size: 40px;
+}
+#image-1 {
+    width: 38vw;
+    height: 38vw;
+}
+#image-2 {
+    height: 38vw;
+    width: 59vw;
+}
+#image-3 {
+    height: 35vw;
+    width: 23vw;
+}
+#image-4 {
+    height: 35vw;
+    width: 50vw;
+}
+#image-5 {
+    height: 35vw;
+    width: 23vw;
+}
+#image-6 {
+    display: none;
+}
+#image-am {
+    height: 43vw;
+    width: 100vw;
+}
+.image-album-vertical {
+    width: 20vw;
+    height: 30vw;
+}
+.image-album-horizontal {
+    width: 45vw;
+    height: 30vw;
+}
+.image-album-square {
+    width: 30vw;
+    height: 30vw;
+}
+img {
+    max-width: 100%;
+    margin: 0.5vw;
+}
+}
+@media only screen and (min-width: 801px) {
+.gallery-wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+h1 {
+    text-align: center;
+    color: rgb(243, 139, 4);
+    font-size: 40px;
+}
+.image-album-vertical {
+    width: 20vw;
+    height: 30vw;
+}
+.image-album-horizontal {
+    width: 45vw;
+    height: 30vw;
+}
+.image-album-square {
+    width: 30vw;
+    height: 30vw;
+}
+#image-am {
+    display: none;
+}
+img {
+    max-width: 100%;
+    margin: 0.5vw;
+}
+}
