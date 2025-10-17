@@ -9,8 +9,8 @@ window.onscroll = function() {scrollFunction()};
 function menu() {
   var x = document.getElementById("menu");
   if (x.style.display == "none") {
-    x.style.display = "grid";
-    x.style.gridTemplateColumns="1fr 1fr 1fr 1fr";
+    x.style.display = "block";
+    x.style.minWidth="150px";
   }
   else {
     x.style.display = "none";

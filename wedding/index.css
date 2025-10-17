@@ -10,10 +10,14 @@ html {
     #menu {
         display: none;
         grid-area: menu;
+        top: 80px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        position: absolute;
+        background-color: rgb(249, 249, 249);
     }
     .menu-button {
         text-align: center;
-        padding: 0px 0;
+        padding: 7px;
         background-color: white;
         border-radius: 10px;
     }
@@ -86,6 +90,7 @@ html {
         position: fixed; 
         top: -100px; 
         width: 100%; 
+        z-index: 9999; 
         transition: top 0.3s; 
         background-color: peachpuff;
         display: flex;

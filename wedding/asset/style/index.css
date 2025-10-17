@@ -35,7 +35,7 @@ h3 {
 }
 .index-welcoming {
     background-image: url(../images/index-welcoming-background-a.jpg);
-    background-size: contain;
+    background-size: cover;
     padding-bottom: 10vh;
 }
 #index-welcoming-portrait-wrapper {
@@ -193,8 +193,8 @@ figure {
 }
 #index-wishes-text-wrap {
     position: relative;
-    top: 70px;
-    height: 550px;
+    top: 10vh;
+    height: 60vh;
     overflow-y: auto;
 }
 }
