@@ -109,6 +109,7 @@ figure {
 }
 .index-story {
     text-align: justify;
+    display: none;
 }
 #index-album-1 {
     display: grid;
@@ -168,6 +169,7 @@ figure {
     text-align: justify;
 }
 #index-wishes {
+    display: none;
     background-image: url(../images/index-wishes-background.jpg);
     background-size: cover;
     width: 100vw;
@@ -286,6 +288,7 @@ figure {
 }
 .index-story {
     text-align: justify;
+    display: none;
 }
 #index-album-1 {
     display:grid;
@@ -361,6 +364,7 @@ figure {
     text-align: justify;
 }
 #index-wishes {
+    display: none;
     background-image: url(../images/index-wishes-background.jpg);
     background-size: cover;
     width: 70vw;
