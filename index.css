@@ -3,29 +3,20 @@
     src: url(asset/font/Nunito-VariableFont.ttf);
 }
 body {
-    background-color: skyblue;
+    background-color: wheat;
     font-family: "nunito";
 }
-h1 {
+h3 {
     text-align: center;
 }
 h2 {
     text-align: center;
 }
-.service-icon {
-    height: 60px;
-    width: 60px;
-}
-#services-info {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-.service-info-component {
-    width: 360px;
-    justify-items: center;
-}
-.service-info-figure {
-    text-align: center;
+img {
+    height: 20vw;
+    width: 20vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
