@@ -8,6 +8,7 @@
             content="Hướng dẫn đi lại." />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>T&H Wedding</title>
+        <link rel="icon" type="image/x-icon" href="asset/images/favicon.ico">
         <link rel="stylesheet"href="index.css">
         <link rel="stylesheet"href="asset/style/navigation.css">
         <script src="script.js"></script>
@@ -21,8 +22,8 @@
                     style="height:100%"
                     />
             </div>
-            <div style="vertical-align: bottom; padding-left: 30px;padding-right: 30px;">
-                <p style="font-size:16px; color:rgb(243, 139, 4)"> 08-11-2025 / 19 - 09 ÂL</p>
+            <div style="vertical-align: bottom; padding-left: 10px;padding-right: 10px;">
+                <p id="menu-dropdown"></p>
             </div>
         </div>
     <header>
@@ -58,11 +59,12 @@
             </div>
         </nav>
     </header>
-    <h1>Thiệp mời:</h1>
+    <section id="welcome-message"></section>
+    <h1>THIỆP MỜI</h1>
     <div class="invitation">
         <div class="invitation-letter-wrap">
         <img
-            src="asset/images/index-portrait-placeholder.jpg"
+            src="asset/images/invitation-left.jpg"
             alt="Thiệp mời"
             class="invitation-letter"
             id="invitation-letter-left"
@@ -70,7 +72,7 @@
         </div>
         <div class="invitation-letter-wrap">
         <img
-            src="asset/images/index-portrait-placeholder.jpg"
+            src="asset/images/invitation-right.jpg"
             alt="Thiệp mời"
             class="invitation-letter"
             id="invitation-letter-right"
@@ -78,12 +80,12 @@
         </div>
     </div>
     <div id="navigation">
-        <h1>Chỉ đường:</h1>
+        <h1>CHỈ ĐƯỜNG</h1>
         <div class="navigation-box">
             <div class="navigation-box-inner">
             <h2>Gia đình chú rể</h2>
                 <address>
-                    84 Mạc Đĩnh Chi, Bắc Sơn, Tam Điệp, Ninh Bình
+                    84 Mạc Đĩnh Chi, phường Tam Điệp, Ninh Bình
                 </address>
             <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3745.4928522468213!2d105.90700277506862!3d20.155194781284475!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x313664cfbe128c45%3A0xc54a817a037946be!2zODQgTeG6oWMgxJDEqW5oIENoaSwgQuG6r2MgU8ahbiwgVGFtIMSQaeG7h3AsIE5pbmggQsOsbmgsIFZpZXRuYW0!5e0!3m2!1sen!2s!4v1740827373397!5m2!1sen!2s" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
@@ -91,7 +93,7 @@
             <div class="navigation-box-inner">
             <h2>Gia đình cô dâu</h2>
                 <address>
-                    Thôn Bình Thượng, Xã Yên Thọ, Ý Yên, Nam Định
+                    Thôn Bình Thượng, Xã Phong Doanh, Ninh Bình
                 </address>
             <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3739.798726968664!2d105.9289945750751!3d20.391186981103385!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135d70edcc6bf29%3A0x4adebd1c1376453d!2zTlBQIFPGoW4gTmF0b3MgLSBDw7RuZyBUdXnhur9u!5e0!3m2!1sen!2s!4v1740827412895!5m2!1sen!2s" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
@@ -101,4 +103,5 @@
     <footer>
         Self-made with 100% love! ❤️
     </footer>
+    <script src="personalized-webpage.js"></script>
 </html>

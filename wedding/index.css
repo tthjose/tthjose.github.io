@@ -2,8 +2,15 @@
     font-family: "merriweather";
     src: url(asset/font/Merriweather-Regular.ttf);
 }
+@font-face{
+    font-family: "cormorant";
+    src: url(../font/CormorantUnicase-Bold.ttf);
+}
 html {
     font-family: "merriweather";
+}
+p {
+    color: rgb(243, 139, 4);
 }
 /* To querry screen size and css accordingly*/
 @media only screen and (max-width: 800px) {
@@ -28,6 +35,14 @@ html {
         grid-template-areas: 
             "burger head"
             "menu menu"
+    }
+    #welcome-message {
+        text-align: center;
+        font-size: 16px;
+        background-color: peachpuff;
+        color: rgb(243, 139, 4);
+        padding-top: 12px;
+        padding-bottom: 12px;
     }
     #burger-menu {
         color: white;
@@ -96,7 +111,13 @@ html {
         display: flex;
         flex-wrap: nowrap;
         justify-content: center;
-        height: 46px;
+        height: 50px;
+    }
+    #menu-dropdown {
+        font-size: 14px;
+        margin-top: 10px;
+        margin-bottom: 8px;
+        text-align: center;
     }
     footer {
         color: whitesmoke;
@@ -189,6 +210,17 @@ html {
         flex-wrap: nowrap;
         justify-content: center;
         height: 50px;
+    }
+    #menu-dropdown {
+        font-size: 16px;
+    }
+    #welcome-message {
+        text-align: center;
+        font-size: 16px;
+        background-color: peachpuff;
+        color: rgb(243, 139, 4);
+        padding-top: 12px;
+        padding-bottom: 12px;
     }
     footer {
         color: whitesmoke;

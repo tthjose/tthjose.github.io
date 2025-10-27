@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="vi-VN">
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="TTH" />
+    <meta 
+        name="description"
+        content="Đây là website đám cưới chúng mình, T&ampH. Chúng mình tự hào đang (và sẽ) code trang web này 100%." />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>T&H Wedding</title>
+    <link rel="icon" type="image/x-icon" href="asset/images/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="dedicated-invitation.css">
+    <script>
+        localStorage.setItem("name", "anh Quân và vợ");
+        localStorage.setItem("caller","chúng em");
+        let a = localStorage.getItem("name");
+    </script>
+</head>
+<body>
+    <main>
+            <img src="../asset/images/sticker-enter.png" alt="" />
+            <div id="loading-ring"><svg width="48" height="48" stroke="#000" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><style>.spinner_V8m1{transform-origin:center;animation:spinner_zKoa 2s linear infinite}.spinner_V8m1 circle{stroke-linecap:round;animation:spinner_YpZS 1.5s ease-in-out infinite}@keyframes spinner_zKoa{100%{transform:rotate(360deg)}}@keyframes spinner_YpZS{0%{stroke-dasharray:0 150;stroke-dashoffset:0}47.5%{stroke-dasharray:42 150;stroke-dashoffset:-16}95%,100%{stroke-dasharray:42 150;stroke-dashoffset:-59}}</style><g class="spinner_V8m1"><circle cx="12" cy="12" r="9.5" fill="none" stroke-width="3"></circle></g></svg></div>
+            <h1>Chào mừng <span id="guest"></span>, vui lòng chờ trong giây lát... </h1>
+    </main>
+    <script>
+        document.getElementById("guest").innerHTML = a;
+    </script>
+</body>
+<script>
+window.setTimeout(function(){
+        window.location.href = "../index.html";
+    }, 2000000);
+</script>
+</html>
+
+          

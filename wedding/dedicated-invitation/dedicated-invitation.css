@@ -1,0 +1,42 @@
+body {
+    background-image: url(../asset/images/NHO02995.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-color: rgba(0,0,0,0.5);
+}
+main {
+    background-color: peachpuff;
+    position:relative;
+    top: 35vh;
+}
+#loading-ring {
+    position: relative;
+    text-align: center;
+}
+h1 {
+    position: relative;
+    color: white;
+    font-size: 2em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: relative;
+    text-align: center;
+}
+@media only screen and (max-width: 600px) {
+img {
+    position: relative;
+    left: 40%;
+    text-align: center;
+    height: 20vw;
+    width: 20vw;
+}
+}
+@media only screen and (min-width: 601px) {
+    img {
+    position: relative;
+    left: 45%;
+    text-align: center;
+    height: 10vw;
+    width: 10vw;
+}
+}

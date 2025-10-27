@@ -8,6 +8,7 @@
             content="Album ảnh cưới." />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>T&H Wedding</title>
+        <link rel="icon" type="image/x-icon" href="asset/images/favicon.ico">
         <link rel="stylesheet" href="index.css">
         <link rel="stylesheet" href="asset/style/album.css">
         <script src="script.js"></script>
@@ -20,8 +21,8 @@
                     style="height:100%;margin:0px;"
                     />
             </div>
-            <div style="vertical-align: bottom; padding-left: 30px;padding-right: 30px;">
-                <p style="font-size:16px; color:rgb(243, 139, 4)"> 08-11-2025 / 19 - 09 ÂL</p>
+            <div style="vertical-align: bottom; padding-left: 10px;padding-right: 10px;">
+                <p id="menu-dropdown"></p>
             </div>
         </div>
     <header>
@@ -58,37 +59,44 @@
         </header>
         <body>
             <main>
-                <h1>Những khoảnh khắc bên nhau</h1>
+                <section id="welcome-message"></section>
+                <h1>NHỮNG KHOẢNH KHẮC BÊN NHAU</h1>
                 <section class="image-hue">
                     <div class="gallery-wrap">
-                        <img class="image-album-square" id="image-1" src="asset/images/image-album-a2.JPG" alt="">
-                        <img class="image-album-horizontal" id="image-2" src="asset/images/image-album-a1.JPG" alt="">
+                        <img class="image-album-square" id="image-1" src="asset/images/image-album-a2.jpg" alt="">
+                        <img class="image-album-horizontal" id="image-2" src="asset/images/image-album-a1.jpg" alt="">
                         <img id="image-am" src="asset/images/image-album-am.JPG">
-                        <img class="image-album-vertical" id="image-3" src="asset/images/image-album-a5.JPG" alt="">
-                        <img class="image-album-horizontal" id="image-4" src="asset/images/image-album-a3.JPG" alt="">
-                        <img class="image-album-vertical" id="image-5" src="asset/images/image-album-a4.JPG" alt="">
+                        <img class="image-album-vertical" id="image-3" src="asset/images/image-album-a5.jpg" alt="">
+                        <img class="image-album-horizontal" id="image-4" src="asset/images/image-album-a3.jpg" alt="">
+                        <img class="image-album-vertical" id="image-5" src="asset/images/image-album-a4.jpg" alt="">
                         <img class="image-album-square" id="image-6" src="asset/images/image-album-a6.jpg" alt="">
                     </div>
                 </section>
                 <hr />
+                <div class="album-flower-decor-wrap">
+                    <img class="album-flower-decor" src="asset/images/index-album-decoration-flower.png" alt="">
+                </div>
                 <section class="image-studio">
                     <div class="gallery-wrap">
-                        <img class="image-album-square" id="image-7" src="asset/images/image-album-a2.JPG" alt="">
-                        <img class="image-album-horizontal" id="image-8" src="asset/images/image-album-a1.JPG" alt="">
-                        <img class="image-album-vertical" id="image-9" src="asset/images/image-album-a5.JPG" alt="">
-                        <img class="image-album-horizontal" id="image-10" src="asset/images/image-album-a3.JPG" alt="">
-                        <img class="image-album-vertical" id="image-11" src="asset/images/image-album-a4.JPG" alt="">
+                        <img class="image-album-square" id="image-7" src="asset/images/image-album-a2.jpg" alt="">
+                        <img class="image-album-horizontal" id="image-8" src="asset/images/image-album-a1.jpg" alt="">
+                        <img class="image-album-vertical" id="image-9" src="asset/images/image-album-a5.jpg" alt="">
+                        <img class="image-album-horizontal" id="image-10" src="asset/images/image-album-a3.jpg" alt="">
+                        <img class="image-album-vertical" id="image-11" src="asset/images/image-album-a4.jpg" alt="">
                         <img class="image-album-square" id="image-12" src="asset/images/image-album-a6.jpg" alt="">
                     </div>
                 </section>
-                <hr />
+                <hr/>
+                <div class="album-flower-decor-wrap">
+                    <img class="album-flower-decor" src="asset/images/index-album-decoration-flower.png" alt="">
+                </div>
                 <section class="image-city">
                     <div class="gallery-wrap">
-                        <img class="image-album-square" id="image-13" src="asset/images/image-album-a2.JPG" alt="">
-                        <img class="image-album-horizontal" id="image-14" src="asset/images/image-album-a1.JPG" alt="">
-                        <img class="image-album-vertical" id="image-15" src="asset/images/image-album-a5.JPG" alt="">
-                        <img class="image-album-horizontal" id="image-16" src="asset/images/image-album-a3.JPG" alt="">
-                        <img class="image-album-vertical" id="image-17" src="asset/images/image-album-a4.JPG" alt="">
+                        <img class="image-album-square" id="image-13" src="asset/images/image-album-a2.jpg" alt="">
+                        <img class="image-album-horizontal" id="image-14" src="asset/images/image-album-a1.jpg" alt="">
+                        <img class="image-album-vertical" id="image-15" src="asset/images/image-album-a5.jpg" alt="">
+                        <img class="image-album-horizontal" id="image-16" src="asset/images/image-album-a3.jpg" alt="">
+                        <img class="image-album-vertical" id="image-17" src="asset/images/image-album-a4.jpg" alt="">
                         <img class="image-album-square" id="image-18" src="asset/images/image-album-a6.jpg" alt="">
                     </div>
                 </section>
@@ -97,4 +105,5 @@
     <footer>
         Self-made with 100% love! ❤️
     </footer>
+    <script src="personalized-webpage.js"></script>
 </html>
