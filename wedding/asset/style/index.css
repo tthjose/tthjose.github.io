@@ -30,7 +30,7 @@
     h2 {
     text-align: center;
     color: rgba(148, 121, 101, 0.9);
-    font-size: 24px;
+    font-size: 5.5vw;
     font-family: "cormorant";
     }
 h3 {
@@ -93,7 +93,7 @@ h3 {
 }
 .index-about-description {
     text-align: justify;
-    font-size: 18px;
+    font-size: 16px;
     grid-area: content;
     color: rgb(243, 139, 4);
     grid-area: description;
@@ -114,6 +114,46 @@ figure {
 }
 .index-story {
     text-align: justify;
+    padding-left: 6vw;
+    padding-right: 6vw;
+    margin: 0px;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    color: black;
+    font-size: 3.5vw;
+}
+.index-story-title {
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    right: -12vw;
+    top: 8vw;
+    font-size: 5vw;
+}
+#index-story-content {
+    width: 85vw;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(../images/index-story-background-body.png);
+    background-size: contain;
+}
+#index-story-head-graphic {
+    width: 85vw;
+    height: 21.25vw;
+    background-image: url(../images/index-story-background-head.png);
+    background-size: cover;
+}
+.index-story-graphic {
+    width: 5vw;
+    height: 5vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+#index-story-end-graphic {
+    width: 85vw;
+    height: 30vw;
+    background-image: url(../images/index-story-background-end.png);
+    background-size: cover;
 }
 #index-album-1 {
     display: grid;
@@ -222,7 +262,7 @@ figure {
     h2 {
     text-align: center;
     color: rgb(148, 121, 101);
-    font-size: 36px;
+    font-size: 3vw;
     padding: 10px;
     font-family: "cormorant";
     }
@@ -238,7 +278,7 @@ h3 {
     background-size: cover;
 }
 #index-welcoming-text {
-    margin-top: 120px;
+    margin-top: 150px;
     margin-bottom: 120px;
 }
 #index-welcoming-portrait-wrapper {
@@ -292,6 +332,45 @@ figure {
 }
 .index-story {
     text-align: justify;
+    padding-left: 6vw;
+    padding-right: 6vw;
+    margin: 0px;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    color: black;
+    font-size: 1.5vw;
+}
+#index-story-content {
+    width: 70vw;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(../images/index-story-background-body.png);
+    background-size: contain;
+}
+.index-story-title {
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    right: -12vw;
+    top: 8vw;
+}
+#index-story-head-graphic {
+    width: 70vw;
+    height: 17.5vw;
+    background-image: url(../images/index-story-background-head.png);
+    background-size: cover;
+}
+.index-story-graphic {
+    width: 5vw;
+    height: 5vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+#index-story-end-graphic {
+    width: 70vw;
+    height: 25vw;
+    background-image: url(../images/index-story-background-end.png);
+    background-size: cover;
 }
 #index-album-1 {
     display:grid;
