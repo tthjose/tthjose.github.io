@@ -12,7 +12,9 @@ h1 {
 .album-flower-decor-wrap {
     position: relative;
     left: 45%;
-    top: -6vw;
+    top: -3vh;
+    margin-bottom: -3vh;
+    width: fit-content;
 }
 .album-flower-decor {
     height: 10vw;
@@ -76,7 +78,9 @@ h1 {
 .album-flower-decor-wrap {
     position: relative;
     left: 45%;
-    top: -6vw;
+    top: -8vh;
+    margin-bottom: -8vh;
+    width: fit-content;
 }
 .album-flower-decor {
     height: 10vw;

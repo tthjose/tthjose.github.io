@@ -157,6 +157,36 @@ figure {
     background-image: url(../images/index-story-background-end.png);
     background-size: cover;
 }
+.album-flower-decor-wrap {
+    position: relative;
+    left: 45%;
+    top: -3vh;
+    margin-bottom: -3vh;
+    width: fit-content;
+}
+.album-flower-decor {
+    height: 10vw;
+    width: 10vw;
+}
+#index-album-0 {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+#index-album-0 > div {
+    padding-left: 1vw;
+    padding-right: 1vw;
+}
+#index-album-0b {
+    margin-top: 2vh;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+#index-album-0b > div {
+    padding-left: 1vw;
+    padding-right: 1vw;
+}
 #index-album-1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -172,6 +202,34 @@ figure {
     grid-template-columns: 1.5fr 1fr 1.5fr;
     position: relative;
     top: -40px;
+}
+#image-0-1 {
+    height: 28vw;
+    width: 37vw;
+}
+#image-0-2 {
+    height: 28vw;
+    width: 20vw;
+}
+#image-0-3 {
+    height: 28vw;
+    width: 28vw;
+}
+#image-0b-1{
+    height: 30vw;
+    width: 20vw;
+}
+#image-0b-2{
+    height: 30vw;
+    width: 20vw;
+}
+#image-0b-3{
+    height: 30vw;
+    width: 20vw;
+}
+#image-0b-4{
+    height: 30vw;
+    width: 20vw;
 }
 #image-1 {
     height: 30vw;
@@ -375,6 +433,36 @@ figure {
     background-image: url(../images/index-story-background-end.png);
     background-size: cover;
 }
+.album-flower-decor-wrap {
+    position: relative;
+    left: 45%;
+    top: -6vh;
+    width: fit-content;
+    margin-bottom: -6vh;
+}
+.album-flower-decor {
+    height: 10vw;
+    width: 10vw;
+}
+#index-album-0 {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+#index-album-0 > div {
+    padding-left: 1vw;
+    padding-right: 1vw;
+}
+#index-album-0b {
+    margin-top: 2vh;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+#index-album-0b > div {
+    padding-left: 1vw;
+    padding-right: 1vw;
+}
 #index-album-1 {
     display:grid;
     grid-template-columns: 1fr 1fr;
@@ -400,8 +488,36 @@ figure {
 #index-album-2-2 {
     text-align: center;
 }
+#image-0-1 {
+    height: 25vw;
+    width: 33vw;
+}
+#image-0-2 {
+    height: 25vw;
+    width: 18vw;
+}
+#image-0-3 {
+    height: 25vw;
+    width: 25vw;
+}
+#image-0b-1{
+    height: 25vw;
+    width: 17vw;
+}
+#image-0b-2{
+    height: 25vw;
+    width: 17vw;
+}
+#image-0b-3{
+    height: 25vw;
+    width: 17vw;
+}
+#image-0b-4{
+    height: 25vw;
+    width: 17vw;
+}
 #image-1 {
-    transform:rotate(10deg);
+    transform:rotate(-10deg);
     height: 25vw;
     width: 25vw;
 }
