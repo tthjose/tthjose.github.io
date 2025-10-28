@@ -128,9 +128,10 @@ figure {
     margin: 0px;
     padding: 0px;
     position: relative;
-    right: -12vw;
+    right: -22vw;
     top: 8vw;
     font-size: 5vw;
+    width: 80%;
 }
 #index-story-content {
     width: 85vw;
@@ -249,7 +250,7 @@ figure {
 }
 #image-5 {
     height: 25vw;
-    width: 37.5vw;
+    width: 35vw;
 }
 .index-album-decoration {
     display: none;
