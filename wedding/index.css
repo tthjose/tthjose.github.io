@@ -4,7 +4,7 @@
 }
 @font-face{
     font-family: "cormorant";
-    src: url(../font/CormorantUnicase-Bold.ttf);
+    src: url(asset/font/CormorantUnicase-Bold.ttf);
 }
 html {
     font-family: "merriweather";
