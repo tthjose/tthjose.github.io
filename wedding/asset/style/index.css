@@ -199,10 +199,15 @@ figure {
     text-align: center;
 }
 #index-album-2 {
-    display: grid;
-    grid-template-columns: 1.5fr 1fr 1.5fr;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
     position: relative;
     top: -40px;
+}
+#index-album-2 > div {
+    margin-left: 2vw;
+    margin-right: 2vw;
 }
 #image-0-1 {
     height: 28vw;
@@ -242,11 +247,11 @@ figure {
 }
 #image-3 {
     height: 25vw; 
-    width: 33vw;
+    width: 37.5vw;
 }
 #image-4 {
     height: 25vw; 
-    width: 19.6vw;
+    width: 16.6vw;
 }
 #image-5 {
     height: 25vw;
@@ -531,9 +536,8 @@ figure {
     width: 30vw;
 }
 #image-4 {
-    transform:rotate(0deg);
     height: 20vw; 
-    width: 13vw;
+    width: 14vw;
 }
 #image-5 {
     height: 20vw;
