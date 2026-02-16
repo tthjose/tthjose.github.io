@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="vi-VN">
+<head>
+    <meta charset="utf-8">
+    <title>Hanoi Weather observation and Alert</title>
+    <!--- <meta http-equiv="refresh" content="300">  //Add reload every 5 minutes --> 
+    <link rel="stylesheet" type="text/css" href="StyleSheet1.css" />
+    <link rel="icon" type="image/ico" sizes="16x16" href="favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <header>
+        <div id="icon-wrap">
+            <img src="icon.png" alt="icon">
+        </div>
+        <div>
+            <p><span id="title"> Weather Observer and Forecast </span> </p>
+            <p><span id="subtitle">Hanoi</span></p>
+        </div>
+        <span id="time"></span>
+    </header>
+    <hr>
+    <main>
+        <div id="frame-1">
+            <!--- <iframe class="frame-component" style="height: 44vh" src="" frameborder="0"></iframe> -->
+            <div style="height: 44vh">
+                <div id="frame-1-1">
+                    <p>Current condition<p>
+                    <div id="frame-1-1-1">
+                        <p><span id="current-temp"></span>°C</p>
+                        <div id="current-weather"></div>
+                    </div>
+                </div>
+
+            </div>
+            <iframe class="frame-component" style="height: 44vh" src="https://embed.windy.com/embed.html?type=map&location=coordinates&metricRain=mm&metricTemp=°C&metricWind=km/h&zoom=9&overlay=satellite&product=satellite&level=surface&lat=20.997&lon=105.826&message=true" sandbox ="allow-scripts" frameborder="0"></iframe>
+        </div>
+        <div id="frame-2">
+        <iframe class="frame-component" style="height: 88vh" src="https://embed.windy.com/embed.html?type=map&location=coordinates&metricRain=mm&metricTemp=°C&metricWind=km/h&zoom=5&overlay=rain&product=ecmwf&level=surface&lat=13.241&lon=107.209&detailLat=21.018&detailLon=105.846&marker=true&pressure=true&message=false" frameborder="0"></iframe>
+        </div>
+        <div id="frame-3">
+            <iframe class="frame-component" style="height: 66vh" src="https://embed.waze.com/iframe?zoom=13&lat=21.019368&lon=105.803830" frameborder="0"></iframe>
+            <iframe class="frame-component" style="height: 22vh" src="https://embed.windy.com/embed.html?type=forecast&location=coordinates&detail=true&detailLat=21.016370732656398&detailLon=105.7770300942691&metricTemp=°C&metricRain=mm&metricWind=km/h" frameborder="0"></iframe>
+        </div>
+    </main>
+    <footer>
+            <p> To Milk, with love ❤️ </p> 
+    </footer>
+    <script src="service_Time.js"> </script>
+    <script src="asset/data.js"></script>
+</body>
+</html>

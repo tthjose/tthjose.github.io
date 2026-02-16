@@ -18,24 +18,24 @@ img {
 #title {
     padding-left: 10px;
     font-size: 24px;
-    color: white;
+    color: black;
     font-family: "merriweather";
 }
 #subtitle {
     padding-left: 10px;
     font-size: 20px;
-    color: white;
+    color: black;
     font-family: "merriweather";
 }
 #time {
     top: 15px;
-    color: white;
+    color: black;
     font-size: 24px;
     position: absolute;
     right: 0px;
 }
 body {
-    background-color: black;
+    background-color: white;
     margin-bottom: 0px;
 }
 main {
@@ -51,6 +51,33 @@ iframe {
     grid-template-rows: 1fr;
     width: 30%;
     height: 100%;
+}
+#frame-1-1 {
+    width: 50%;
+    height: 50%;
+}
+#frame-1-1 > p {
+    font-family: "merriweather";
+    font-size: 1.1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#frame-1-1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#frame-1-1-1 > p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1em;
+}
+#current-weather {
+    width: 100%;
+}
+#current-weather > img {
+    width: 100%;
 }
 .frame-component {
     width: 100%;
