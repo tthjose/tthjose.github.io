@@ -71,7 +71,8 @@ iframe {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1.1em;
+    font-size: 2em;
+    font-weight: bold;
 }
 #current-weather {
     width: 100%;
@@ -81,6 +82,10 @@ iframe {
 }
 .frame-component {
     width: 100%;
+}
+#frame-1-1-2 > table {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
 }
 #frame-2 {
     width: 25%;
