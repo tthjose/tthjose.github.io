@@ -23,28 +23,20 @@
     <hr>
     <main>
         <div id="frame-1">
-            <!--- <iframe class="frame-component" style="height: 44vh" src="" frameborder="0"></iframe> -->
-            <div style="height: 44vh">
-                <div id="frame-1-1">
-                    <p>Current condition<p>
+            <div id="frame-1-1">
                     <div id="frame-1-1-1">
-                        <p><span id="current-temp"></span>°C</p>
-                        <div id="current-weather"></div>
+                        <div id="frame-1-1-1-title">Current condition</div>
+                        <div id="current-temp-wrap" style="grid-area: info1"><span id="current-temp"></span>°C</div>
+                        <div style="grid-area: info2"><span id="current-weather"></span></div>
+                        <div id="frame-1-1-1-subcontent">humidity: <span id="current-humid"></span>% AQI: <span id="current-aqi"></span></div>
                     </div>
                     <div id="frame-1-1-2">
-                        <table>
-                            <tr>
-                                <td id="overall">overall</td>
-                                <td id="heatwave">heatwave</td>
-                                <td id="humid">humid</td>
-                                <td id="pollution">pollution</td>
-                                <td id="coldsurge">coldsurge</td>
-                                <td id="thunderstorm">thunderstorm</td>
-                            </tr>
-                        </table>
+                        <h3 id="overall">Weather warning: </h3>
+                        <h4>for: <span id="heatwave">heatwave, </span><span id="humid">humid, </span><span id="pollution">pollution, </span><span id="coldsurge">coldsurge, </span><span id="thunderstorm">thunderstorm</span></h4>
                     </div>
-                </div>
+                    <div id="frame-1-1-3">
 
+                    </div>
             </div>
             <iframe class="frame-component" style="height: 44vh" src="https://embed.windy.com/embed.html?type=map&location=coordinates&metricRain=mm&metricTemp=°C&metricWind=km/h&zoom=9&overlay=satellite&product=satellite&level=surface&lat=20.997&lon=105.826&message=true" sandbox ="allow-scripts" frameborder="0"></iframe>
         </div>

@@ -120,7 +120,9 @@ async function main() {
     console.log(meteo);
     console.log(aq);
     document.getElementById("current-temp").innerHTML = meteo.current.temperature_2m;
-    document.getElementById("frame-1-1-1").style.color = await displayTemperature(meteo.current.temperature_2m);
+    document.getElementById("current-temp-wrap").style.color = await displayTemperature(meteo.current.temperature_2m);
+    document.getElementById("current-humid").innerHTML = meteo.current.relative_humidity_2m;
+    document.getElementById("current-aqi").innerHTML = aq.data.aqi;
     displayWeather(meteo.current.weather_code);
     const warningCode = processWarning(meteo.daily.temperature_2m_min[0],meteo.daily.temperature_2m_max[0],meteo.daily.relative_humidity_2m_max[0],meteo.daily.weather_code[0],aq.data.aqi);
     displayWarning(warningCode);
