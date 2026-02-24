@@ -72,17 +72,17 @@ function processWeatherCode(wCode) {
 }
 function processWarning(tempMin,tempMax,humidP,wCode,aqi) {
     let coldsurge, heatwave, humid, thunderstorm, pollution;
-    if (tempMin <= 20) {coldsurge = 1;}
+    if (tempMin <= 10) {coldsurge = 3;}
     else if (tempMin <= 16) {coldsurge = 2;}
-    else if  (tempMin <= 10) {coldsurge = 3;}
+    else if  (tempMin <= 20) {coldsurge = 1;}
     else {coldsurge = 0};
-    if (tempMax >= 34) {heatwave = 1;}
+    if (tempMax >= 39) {heatwave = 3;}
     else if (tempMax >= 36) {heatwave = 2;}
-    else if (tempMax >= 39) {heatwave = 3;}
+    else if (tempMax >= 34) {heatwave = 1;}
     else {heatwave = 0};
-    if (humidP >= 80) {humid = 1;}
+    if (humidP >= 95) {humid = 3;}
     else if (humidP >= 90) {humid = 2;}
-    else if (humidP >= 95) {humid = 3;}
+    else if (humidP >= 80) {humid = 1;}
     else {humid = 0};
     if (wCode >= 91) {thunderstorm =1} else {thunderstorm = 0};
     if (aqi <= 60) {pollution = 0}
