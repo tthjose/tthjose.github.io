@@ -90,7 +90,8 @@ iframe {
 }
 #frame-1-1-3 {
     grid-area: three;
-
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 #current-weather > img {
     width: 80px;
@@ -101,6 +102,10 @@ iframe {
     justify-content: center;
     align-items: center;
     font-size: 22px;
+    color: white;
+}
+#current-temp {
+    font-weight: bold;
 }
 .frame-component {
     width: 100%;
@@ -108,6 +113,23 @@ iframe {
 #frame-1-1-2 > table {
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
+}
+.weather-forecast-date {
+    text-align: center;
+}
+.weather-forecast-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 8vh;
+}
+.weather-forecast-icon * {
+    height: 5vh;
+    width: 5vh;
+}
+.weather-forecast-temperature {
+    text-align: center;
 }
 #frame-2 {
     width: 25%;
