@@ -1,11 +1,10 @@
-let datetime = new Date();
-console.log(datetime);
-document.getElementById("time").textContent = datetime;
 function refreshTime() {
     const timeDisplay = document.getElementById("time");
-    const dateString = new Date().toLocaleString();
-    const formattedString = dateString.replace(", ", " - ");
-    timeDisplay.textContent = formattedString;
+    const second = new Date().getSeconds();
+    const minute = new Date().getMinutes();
+    const hour = new Date().getHours();
+    const day = new Date().getDate();
+    const month = new Date().getMonth() + 1; //For some reason the returned month falls behind by 1
+    timeDisplay.textContent = day+"/"+month+"-"+hour+":"+minute+":"+second;
 }
 setInterval(refreshTime, 1000);
-  

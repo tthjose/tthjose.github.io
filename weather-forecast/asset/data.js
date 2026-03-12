@@ -115,6 +115,29 @@ function displayWarning(code) {
             case overall == 0 : document.getElementById("overall").innerText = ": none"; break;
     }
 }
+function displayWarningFuture(code,date) {
+    let overall = Math.max(...code);
+    let element;
+    const warning = ["coldsurge","heatwave","humid","thunderstorm","pollution"];
+    switch (true) {
+        case date == 0 : element = "wFW-0"; break;
+        case date == 1 : element = "wFW-1"; break;
+        case date == 2 : element = "wFW-2"; break;
+    }
+    switch (true) {
+            case overall == 1 : document.getElementById(element).innerText = "🟨"; break;
+            case overall == 2 : document.getElementById(element).innerText = "🟧"; break;
+            case overall == 3 : document.getElementById(element).innerText = "🟥"; break;
+            case overall == 0 : document.getElementById(element).innerText = ": none"; break;
+    }
+    for (let i=0;i<5;i++) {
+        if (code[i] > 0) {
+            const para = document.createElement("p");
+            para.innerHTML = warning[i];
+            document.getElementById(element).appendChild(para);
+        }
+    }
+}
 function forecastTemperature(t) {
     for (let i=0;i<6;i++ ) {
         t[i] = t[i].toFixed(0);
@@ -152,5 +175,11 @@ async function main() {
     //display temperature forecast
     let tForecast = [meteo.daily.temperature_2m_min[0],meteo.daily.temperature_2m_min[1],meteo.daily.temperature_2m_min[2],meteo.daily.temperature_2m_max[0],meteo.daily.temperature_2m_max[1],meteo.daily.temperature_2m_max[2]] 
     forecastTemperature(tForecast)
+    //display forecast warning
+    const warningCode1 = processWarning(meteo.daily.temperature_2m_min[1],meteo.daily.temperature_2m_max[1],meteo.daily.relative_humidity_2m_mean[1],meteo.daily.weather_code[1],0);
+    const warningCode2 = processWarning(meteo.daily.temperature_2m_min[2],meteo.daily.temperature_2m_max[2],meteo.daily.relative_humidity_2m_mean[2],meteo.daily.weather_code[2],0);
+    displayWarningFuture(warningCode,0);
+    displayWarningFuture(warningCode1,1);
+    displayWarningFuture(warningCode2,2);
 }
 main();

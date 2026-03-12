@@ -16,14 +16,13 @@
         </div>
         <div>
             <p><span id="title"> Weather Observer and Forecast </span> </p>
-            <p><span id="subtitle">Hanoi</span></p>
+            <p><span id="subtitle">HANOI</span></p>
         </div>
         <span id="time"></span>
     </header>
     <hr>
     <main>
         <div id="frame-1">
-            <div id="frame-1-1">
                     <div id="frame-1-1-1">
                         <div id="frame-1-1-1-title">Current condition</div>
                         <div id="current-temp-wrap" style="grid-area: info1"><span id="current-temp"></span>°C</div>
@@ -39,7 +38,8 @@
                             <div class="weather-forecast-date" id="wFD-0"></div>
                             <div class="weather-forecast-icon"><span id="wFI-0"></span></div>
                             <div class="weather-forecast-temperature"><span id="wFT-0"></span></div>
-                            <div class="weather-forecast-warning" id="wFW-0"></div>
+                            <div class="weather-forecast-warning" id="wFW-0">   
+                            </div>
                         </div>
                         <div class="weather-forecast" id="weather-forecast-1">
                             <div class="weather-forecast-date" id="wFD-1"></div>
@@ -54,15 +54,25 @@
                             <div class="weather-forecast-warning" id="wFW-2"></div>
                         </div>
                     </div>
-            </div>
-            <iframe class="frame-component" style="height: 44vh" src="https://embed.windy.com/embed.html?type=map&location=coordinates&metricRain=mm&metricTemp=°C&metricWind=km/h&zoom=9&overlay=satellite&product=satellite&level=surface&lat=20.997&lon=105.826&message=true" sandbox ="allow-scripts" frameborder="0"></iframe>
         </div>
         <div id="frame-2">
-        <iframe class="frame-component" style="height: 88vh" src="https://embed.windy.com/embed.html?type=map&location=coordinates&metricRain=mm&metricTemp=°C&metricWind=km/h&zoom=5&overlay=rain&product=ecmwf&level=surface&lat=13.241&lon=107.209&detailLat=21.018&detailLon=105.846&marker=true&pressure=true&message=false" frameborder="0"></iframe>
+                <iframe class="frame-component" src="https://embed.windy.com/embed.html?type=map&location=coordinates&metricRain=mm&metricTemp=°C&metricWind=km/h&zoom=9&overlay=satellite&product=satellite&level=surface&lat=20.997&lon=105.826&message=true" sandbox ="allow-scripts" frameborder="0"></iframe>
         </div>
         <div id="frame-3">
-            <iframe class="frame-component" style="height: 66vh" src="https://embed.waze.com/iframe?zoom=13&lat=21.019368&lon=105.803830" frameborder="0"></iframe>
-            <iframe class="frame-component" style="height: 22vh" src="https://embed.windy.com/embed.html?type=forecast&location=coordinates&detail=true&detailLat=21.016370732656398&detailLon=105.7770300942691&metricTemp=°C&metricRain=mm&metricWind=km/h" frameborder="0"></iframe>
+                <iframe class="frame-component" src="https://embed.windy.com/embed.html?type=map&location=coordinates&metricRain=mm&metricTemp=°C&metricWind=km/h&zoom=9&overlay=radar&product=radar&level=surface&lat=20.972&lon=105.81&pressure=true&message=true" sandbox ="allow-scripts" frameborder="0"></iframe>
+        </div>
+        <div id="frame-4">
+            <a class="weatherwidget-io" href="https://forecast7.com/en/21d03105d83/hanoi/" data-label_1="HANOI" data-label_2="7-DAY WEATHER" data-font="Noto Sans" data-icons="Climacons" data-theme="pure" >HANOI 7-DAY WEATHER</a>
+            <script>
+                !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
+            </script>
+            </div>
+        </div>
+        <div id="frame-5">
+            <a class="weatherwidget-io" href="https://forecast7.com/en/40d42n3d70/madrid/" data-label_1="MADRID" data-label_2="7-DAY WEATHER" data-font="Noto Sans" data-icons="Climacons" data-theme="pure" >MADRID 7-DAY WEATHER</a>
+            <script>
+                !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
+            </script>
         </div>
     </main>
     <footer>
