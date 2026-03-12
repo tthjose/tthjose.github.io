@@ -58,6 +58,7 @@ iframe {
     "one two"
     "three three";
     grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1.5fr 1fr;
 }
 #frame-1-1-1 {
     grid-area: one;
@@ -90,6 +91,11 @@ iframe {
     grid-area: three;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+}
+#current-weather-wrap {
+      display: flex;
+  justify-content: center;
+  align-items: center;
 }
 #current-weather > img {
     width: 80px;
