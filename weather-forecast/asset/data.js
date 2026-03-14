@@ -101,9 +101,9 @@ function displayWarning(code) {
     for (let i=0; i<5; i++){
         let elementId = element[i];
         switch (true){
-            case code[i] == 1 : document.getElementById(elementId).innerText = "🟨"+element[i]+" "; break;
-            case code[i] == 2 : document.getElementById(elementId).innerText = "🟧"+element[i]+" "; break;
-            case code[i] == 3 : document.getElementById(elementId).innerText = "🟥"+element[i]+" "; break;
+            case code[i] == 1 : document.getElementById(elementId).innerText = "🟨"+element[i]+" "; document.getElementById(elementId).style.border = "1px solid black"; break;
+            case code[i] == 2 : document.getElementById(elementId).innerText = "🟧"+element[i]+" "; document.getElementById(elementId).style.border = "1px solid black"; break;
+            case code[i] == 3 : document.getElementById(elementId).innerText = "🟥"+element[i]+" "; document.getElementById(elementId).style.border = "1px solid black"; break;
             case code[i] == 0 : document.getElementById(elementId).style.display = "none"; break;
         }
     }
