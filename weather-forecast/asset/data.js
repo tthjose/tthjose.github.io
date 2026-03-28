@@ -58,6 +58,10 @@ function processWeatherCode(wCode) {
             weatherText = "cloudy";
             weatherIcon = '<img src="asset/icons/weather/cloudy.png"/>';
             break;
+        case (wCode > 40 && wCode <50):
+            weatherText = "foggy";
+            weatherIcon = '<img src="asset/icons/weather/foggy.png"/>';
+            break;
         case (wCode > 50 && wCode < 91):
             weatherText = "rain";
             weatherIcon = '<img src="asset/icons/weather/rain.png"/>';
