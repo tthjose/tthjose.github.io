@@ -6,7 +6,7 @@
     font-family: "notosans";
     src: url(asset/font/notosans.ttf)
 }
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 921px) {
 header {
     display: flex;
     flex-wrap: nowrap;
@@ -32,10 +32,25 @@ img {
     color: black;
     font-family: "notosans";
 }
+#subtitle-dropdown-icon {
+    height:14px;
+    width: 14px;
+}
+svg > image {
+    height: 100%;
+    width: 100%;
+}
+#header-dropdown-content {
+    display: none;
+    position: absolute;
+}
+#subtitle:hover #header-dropdown-content {
+    display: block;
+}
 #time {
-    top: 15px;
+    top: 40px;
     color: black;
-    font-size: 24px;
+    font-size: 18px;
     position: absolute;
     right: 0px;
 }
@@ -174,7 +189,7 @@ p {
     margin: 0px;
 }
 }
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 920px) {
 header {
     display: flex;
     flex-wrap: nowrap;
@@ -199,6 +214,21 @@ img {
     font-size: 16px;
     color: black;
     font-family: "notosans";
+}
+#subtitle-dropdown-icon {
+    height:14px;
+    width: 14px;
+}
+svg > image {
+    height: 100%;
+    width: 100%;
+}
+#header-dropdown-content {
+    display: none;
+    position: absolute;
+}
+#subtitle:hover #header-dropdown-content {
+    display: block;
 }
 #time {
     top: 34px;

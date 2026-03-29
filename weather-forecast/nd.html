@@ -16,10 +16,10 @@
         </div>
         <div>
             <p><span id="title"> Weather Observer and Forecast </span> </p>
-            <p><div id="subtitle">HANOI <span><svg id="subtitle-dropdown-icon"><image href="asset/icons/angle-down.svg"/></svg></span>
+            <p><div id="subtitle">NAM DINH <span><svg id="subtitle-dropdown-icon"><image href="asset/icons/angle-down.svg"/></svg></span>
                 <div id="header-dropdown-content">
+                        <button><a href="index.html">Hanoi</a></button>
                         <button><a href="td.html">Tam Diep</a></button>
-                        <button><a href="nd.html">Yen Tho</a></button>
                 </div>
             </div>
             </p> 
@@ -63,18 +63,17 @@
         </div>
         <h3 id="frame-2-title">RADAR AND SATELLITE IMAGERY ></h3>
         <div id="frame-2">
-                <iframe class="frame-component" src="https://embed.windy.com/embed.html?type=map&location=coordinates&metricRain=mm&metricTemp=°C&metricWind=km/h&zoom=9&overlay=satellite&product=satellite&level=surface&lat=20.997&lon=105.826&message=true" sandbox ="allow-scripts" frameborder="0"></iframe>
+                <iframe class="frame-component" src="https://embed.windy.com/embed.html?type=map&location=coordinates&metricRain=mm&metricTemp=°C&metricWind=km/h&zoom=9&overlay=satellite&product=satellite&level=surface&lat=20.391&lon=105.931&message=true" sandbox ="allow-scripts" frameborder="0"></iframe>
         </div>
         <div id="frame-3">
-                <iframe class="frame-component" src="https://embed.windy.com/embed.html?type=map&location=coordinates&metricRain=mm&metricTemp=°C&metricWind=km/h&zoom=9&overlay=radar&product=radar&level=surface&lat=20.972&lon=105.81&pressure=true&message=true" sandbox ="allow-scripts" frameborder="0"></iframe>
+                <iframe class="frame-component" src="https://embed.windy.com/embed.html?type=map&location=coordinates&metricRain=mm&metricTemp=°C&metricWind=km/h&zoom=9&overlay=radar&product=radar&level=surface&lat=20.391&lon=105.931&pressure=true&message=true" sandbox ="allow-scripts" frameborder="0"></iframe>
         </div>
         <h3>OTHER REGIONS > </h3>
         <div id="frame-4">
-            <a class="weatherwidget-io" href="https://forecast7.com/en/20d25105d97/ninh-binh/" data-label_1="NINH BÌNH" data-label_2="7-DAY WEATHER" data-icons="Climacons" data-theme="pure" >NINH BÌNH 7-DAY WEATHER</a>
+            <a class="weatherwidget-io" href="https://forecast7.com/en/21d03105d83/hanoi/" data-label_1="HANOI" data-label_2="7-DAY WEATHER" data-icons="Climacons" data-theme="pure" >HANOI 7-DAY WEATHER</a>
             <script>
-                !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');  
+            !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
             </script>
-            </div>
         </div>
         <div id="frame-5">
             <a class="weatherwidget-io" href="https://forecast7.com/en/40d42n3d70/madrid/" data-label_1="MADRID" data-label_2="7-DAY WEATHER" data-font="Noto Sans" data-icons="Climacons" data-theme="pure" >MADRID 7-DAY WEATHER</a>
@@ -87,6 +86,6 @@
             <p> For Milk, with love ❤️ </p> 
     </footer>
     <script src="service_Time.js"> </script>
-    <script src="asset/data.js"></script>
+    <script src="asset/script/data-nd.js"></script>
 </body>
 </html>
