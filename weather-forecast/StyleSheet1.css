@@ -48,11 +48,11 @@ svg > image {
     display: block;
 }
 #time {
-    top: 40px;
+    top: 4vh;
     color: black;
-    font-size: 18px;
+    font-size: 24px;
     position: absolute;
-    right: 0px;
+    right: 8px;
 }
 body {
     background-color: white;
@@ -127,6 +127,8 @@ iframe {
     align-items: center;
     font-size: 22px;
     color: white;
+    -webkit-text-stroke: 0.01px black; 
+    -webkit-text-fill-color: white; 
 }
 #current-temp {
     font-weight: bold;
@@ -306,6 +308,8 @@ iframe {
     align-items: center;
     font-size: 22px;
     color: white;
+    -webkit-text-stroke: 0.01px black; 
+    -webkit-text-fill-color: white;
 }
 #current-temp {
     font-weight: bold;
