@@ -24,14 +24,14 @@ img {
 }
 #title {
     padding-left: 10px;
-    font-size: 22px;
+    font-size: 2.5vh;
     color: black;
     font-family: "notosans";
     font-weight: bold;
 }
 #subtitle {
     padding-left: 10px;
-    font-size: 18px;
+    font-size: 2vh;
     color: black;
     font-family: "notosans";
 }
@@ -51,9 +51,9 @@ svg > image {
     display: block;
 }
 #time {
-    top: 4vh;
+    top: 4.5vh;
     color: black;
-    font-size: 24px;
+    font-size: 2.5vh;
     position: absolute;
     right: 8px;
 }
