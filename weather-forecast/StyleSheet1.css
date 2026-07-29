@@ -50,6 +50,29 @@ svg > image {
 #subtitle:hover #header-dropdown-content {
     display: block;
 }
+#stormWarningsIcon {
+    height: 4.5vh;
+    width: 4.5vh;
+}
+#stormWarningsIcon > img {
+    height: 100%;
+    width: 100%;
+    animation: blinker 1s step-start infinite;
+}
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
+#warningsStorm {
+    padding-left: 2vw;
+    display: none;
+}
+#warningsStorm > p {
+    font-family: "notosans";
+    font-weight: bold;
+    font-size: 1.5vh;
+}
 #time {
     top: 4.5vh;
     color: black;
@@ -259,6 +282,14 @@ svg > image {
 }
 #subtitle:hover #header-dropdown-content {
     display: block;
+}
+#stormWarningsIcon {
+    height: 30px;
+    width: 30px;
+}
+#stormWarningsIcon > img {
+    height: 100%;
+    width: 100%;
 }
 #time {
     top: 34px;

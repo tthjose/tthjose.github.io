@@ -156,8 +156,8 @@ function displayDate(date) {
 }
 async function main() {
     //retrive data from APIs
-    let url1 = "https://api.open-meteo.com/v1/forecast?latitude=20.98&longitude=105.8&daily=weather_code,temperature_2m_max,temperature_2m_min,relative_humidity_2m_mean,precipitation_probability_mean&current=temperature_2m,relative_humidity_2m,wind_speed_10m,weather_code,precipitation&timezone=Asia%2FBangkok&forecast_days=3";
-    let url2 = "https://api.waqi.info/feed/A477292/?token=3c909ae15fd4b8726813b84233b6038cc95291ef";
+    let url1 = "https://api.open-meteo.com/v1/forecast?latitude=16.47&longitude=107.57&daily=weather_code,temperature_2m_max,temperature_2m_min,relative_humidity_2m_mean,precipitation_probability_mean&current=temperature_2m,relative_humidity_2m,wind_speed_10m,weather_code,precipitation&timezone=Asia%2FBangkok&forecast_days=3";
+    let url2 = "https://api.waqi.info/feed/@12488/?token=3c909ae15fd4b8726813b84233b6038cc95291ef";
     let meteo = await getData(url1);
     let aq = await getData(url2);
     //display current info

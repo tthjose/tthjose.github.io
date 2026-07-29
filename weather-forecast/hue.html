@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="vi-VN">
 <head>
     <meta charset="utf-8">
-    <title>Hanoi Weather observation and Alert</title>
+    <title>Hue Weather observation and Alert</title>
     <meta http-equiv="refresh" content="1800" />     
     <link rel="stylesheet" type="text/css" href="StyleSheet1.css" />
     <link rel="icon" type="image/ico" sizes="16x16" href="favicon.ico">
@@ -17,11 +17,11 @@
         </div>
         <div>
             <p><span id="title"> Weather Service </span> </p>
-            <p><div id="subtitle">HANOI <span><svg id="subtitle-dropdown-icon"><image href="asset/icons/angle-down.svg"/></svg></span>
+            <p><div id="subtitle">HUE <span><svg id="subtitle-dropdown-icon"><image href="asset/icons/angle-down.svg"/></svg></span>
                 <div id="header-dropdown-content">
+                        <button><a href="index.html">Ha Noi</a></button>
                         <button><a href="td.html">Tam Diep</a></button>
                         <button><a href="nd.html">Yen Tho</a></button>
-                        <button><a href="hue.html">Hue</a></button>
                 </div>
             </div>
             </p> 
@@ -77,10 +77,10 @@
         </div>
         <h3 id="frame-2-title">RADAR AND SATELLITE IMAGERY ></h3>
         <div id="frame-2">
-                <iframe class="frame-component" src="https://embed.windy.com/embed.html?type=map&location=coordinates&metricRain=mm&metricTemp=°C&metricWind=km/h&zoom=9&overlay=satellite&product=satellite&level=surface&lat=20.997&lon=105.826&message=true" sandbox ="allow-scripts" frameborder="0"></iframe>
+                <iframe class="frame-component" src="https://embed.windy.com/embed.html?type=map&location=coordinates&metricRain=mm&metricTemp=°C&metricWind=km/h&zoom=9&overlay=satellite&product=satellite&level=surface&lat=16.47&lon=107.57&message=true" sandbox ="allow-scripts" frameborder="0"></iframe>
         </div>
         <div id="frame-3">
-                <iframe class="frame-component" src="https://embed.windy.com/embed.html?type=map&location=coordinates&metricRain=mm&metricTemp=°C&metricWind=km/h&zoom=9&overlay=radar&product=radar&level=surface&lat=20.972&lon=105.81&pressure=true&message=true" sandbox ="allow-scripts" frameborder="0"></iframe>
+                <iframe class="frame-component" src="https://embed.windy.com/embed.html?type=map&location=coordinates&metricRain=mm&metricTemp=°C&metricWind=km/h&zoom=9&overlay=radar&product=radar&level=surface&lat=16.47&lon=107.57&pressure=true&message=true" sandbox ="allow-scripts" frameborder="0"></iframe>
         </div>
         <h3>OTHER REGIONS > </h3>
         <div id="frame-4">
@@ -101,8 +101,7 @@
             <p> For Milk, with love ❤️ </p> 
     </footer>
     <script src="service_Time.js"> </script>
-    <script src="asset/data.js"></script>
+    <script src="asset/script/data-hue.js"></script>
     <script src="asset/script/loading.js"></script>
-    <script src="asset/script/thunder.js"></script>
 </body>
 </html>
