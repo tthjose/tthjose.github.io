@@ -15,25 +15,50 @@ function findHN(data) {
 }
 async function main () {
     let warnings;
+    const currentPath = window.location.pathname;
+    const matchedPath = "/index.html";
     const url = "http://hymetnet.gov.vn/dongset";
     let thunders = await getData(url);
-    for (let i = 0; i < 6; i++) {
-        const objectContent = Object.values(thunders)[i];
-        const check0 = objectContent.filter((content) => content.includes("Từ Liêm"));
-        if (Object.keys(check0).length > 0 ) {
-            warnings = true;
+    switch (currentPath) {
+        case "/index.html":
+            for (let i = 0; i < 6; i++) {
+                const objectContent = Object.values(thunders)[i];
+                let place = ["Từ Liêm","Cầu Giấy","Nghĩa Đô"];
+                checkThunder: for (let m = 0; m < place.length; m++) {
+                    const check = objectContent.filter((content) => content.includes(place[m]));
+                    if (Object.keys(check).length > 0 ) {
+                        warnings = true;
+                        break checkThunder;
+                    };
+                };
+            };
             break;
-        };
-        const check1 = objectContent.filter((content) => content.includes("Cầu Giấy"));
-        if (Object.keys(check1).length > 0 ) {
-            warnings = true;
+        case "/td.html":
+            for (let i = 0; i < 6; i++) {
+                const objectContent = Object.values(thunders)[i];
+                let place = ["Tam Điệp"];
+                checkThunder: for (let m = 0; m < place.length; m++) {
+                    const check = objectContent.filter((content) => content.includes(place[m]));
+                    if (Object.keys(check).length > 0 ) {
+                        warnings = true;
+                        break checkThunder;
+                    };
+                };
+            };
             break;
-        };
-        const check2 = objectContent.filter((content) => content.includes("Nghĩa Đô"));
-        if (Object.keys(check2).length > 0 ) {
-            warnings = true;
-            break;
-        };
+        case "/nd.html":
+            for (let i = 0; i < 6; i++) {
+                const objectContent = Object.values(thunders)[i];
+                let place = ["Phong Doanh"];
+                checkThunder: for (let m = 0; m < place.length; m++) {
+                    const check = objectContent.filter((content) => content.includes(place[m]));
+                    if (Object.keys(check).length > 0 ) {
+                        warnings = true;
+                        break checkThunder;
+                    };
+                };
+            };
+            break;        
     };
     if (warnings == true) {
         document.getElementById("warningsStorm").style.display = "block";
