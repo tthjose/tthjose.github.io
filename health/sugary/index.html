@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="vi-VN">
+<head>
+    <meta charset="utf-8">
+    <title>Sugary Drink Monitor</title>
+    <link rel="stylesheet" type="text/css" href="asset/stylesheet/style.css" />
+    <link rel="icon" type="image/ico" sizes="16x16" href="asset/icon/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="192x192" href="asset/icon/web-app-manifest-192x192.png" />
+    <link rel="manifest" href="asset/pwa/manifest.json" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <header>
+        <div id="icon-wrap">
+            <img src="asset/icon/web-app-manifest-192x192.png" alt="icon">
+        </div>
+        <div>
+            <p><span id="title"> Health Service </span> </p>
+            <p id="subtitle">Sugary Drink Monitor<p> 
+        </div>
+        <div id="displayCurrentWeek">
+            <p>Week of <span id="currentWeek"></span></p>
+        </div>
+        <div id="summary">
+            <p>This week's sugar load: <span id="sugaryLoad"></span> point <span id="sugaryLoadIcon"></span></p>
+        </div>
+    </header>
+    <hr>
+    <div id="loading-screen">
+        <div id="loading-image">
+            <img src="asset/icon/web-app-manifest-192x192.png" alt="" />
+        </div>
+        <p>Loading, please wait...</p>
+    </div>
+    <main>
+        <section id="data-entry">
+            <fieldset>
+                <legend><h3>Data entry:</h3></legend>
+            <div>
+                <label for="day">Choose date:
+                <input type="date" id="day" name="day" />
+                </label>
+            </div>
+            <div>
+                <label for="sugar">Choose sugary load:
+                <select name="sugar" id="sugar">
+                    <option value="0">&lt;10g </option>
+                    <option value="0.5">≤25g</option>
+                    <option value="1"> &gt;25g</option>
+                </select>
+                </lable>
+            </div>
+            <div>
+                <h3>Choose additional information: </h3>
+                    <div>
+                        <input type="checkbox" id="exercise" name="exercise" checked />
+                        <label for="exercise">Exercised after consuming sugary drink?</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="social" name="social" checked />
+                        <label for="social">Is it a social drink?</label>
+                    </div>                    
+            </div>
+            <button type="submit" id="save">Save</button>
+            </fieldset>
+        </section>
+        <section id="viewData">
+            <h3 id="viewDataCaller">View this week sugary consumption here:</h3>
+            <table>
+                <tbody id="table">
+                </tbody>
+            </table>
+        </section>
+    </main>
+</body>
+<script src="asset/script/dbEntry.js"></script>
+<script src="asset/script/dbQuery.js"></script>
+<script src="asset/script/getday.js"></script>
+</html>

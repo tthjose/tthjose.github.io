@@ -1,0 +1,188 @@
+@font-face {
+    font-family: "merriweather";
+    src: url(../font/Merriweather-Regular.ttf);
+}
+@font-face {
+    font-family: "notosans";
+    src: url(../font/notosans.ttf)
+}
+p {
+    margin: 0px;
+}
+@media only screen and (min-width: 921px) {
+body {
+    font-family: "notosans";
+}
+header {
+    display: flex;
+    flex-wrap: nowrap;
+    height: 6vh;
+    }
+    #icon-wrap {
+    width: 6vh;
+    height: 6vh;
+}
+img {
+    max-height: 100%;
+}
+#title {
+    padding-left: 10px;
+    font-size: 2.5vh;
+    color: black;
+    font-family: "notosans";
+    font-weight: bold;
+}
+#subtitle {
+    padding-left: 10px;
+    font-size: 2vh;
+    color: black;
+    font-family: "notosans";
+}
+#displayCurrentWeek {
+    font-size: 1.75vh;
+    padding-top: 0.75vh;
+    padding-left: 1vw;
+}
+#summary {
+    position: absolute;
+    right: 8px;
+    font-family: "notosans";
+}
+#loading-screen {
+    display: none;
+    /*
+    display: flex;    
+    position: absolute;
+    background-color: white;
+    z-index: 5;
+    height: 100vh;
+    width: 100vw;
+    opacity: 1000;
+    justify-content: center;
+    align-items: center;
+    */
+}
+#loading-image {
+    height: 120px;
+    width: 120px;
+}
+#loading-image > img {
+    height: 100%;
+    width: 100%;
+}
+#loading-screen > p {
+    font-size: 3vh;
+    font-family: monospace;
+}
+#sugaryLoadIcon > img{
+    display: inline-block;
+    width: 25px;
+    height:25px;
+}
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+section {
+    padding-left: 1vw;
+    padding-right: 1vw;
+}
+#table {
+    display:none;
+    border: 1px solid black;
+}
+th {
+    text-align: center;
+}
+td {
+    text-align: center;
+}
+.icon-table {
+    height: 16px;
+    width: 16px;
+}
+}
+@media only screen and (max-width: 920px) {
+body {
+    font-family: "notosans";
+}
+header {
+    display: flex;
+    flex-wrap: wrap;
+}
+#title {
+    padding-left: 3vw;
+    font-size: 2.5vh;
+    color: black;
+    font-family: "notosans";
+    font-weight: bold;
+}
+#subtitle {
+    padding-left: 3vw;
+    font-size: 1.5vh;
+    color: black;
+    font-family: "notosans";
+}
+#icon-wrap {
+    width: 6vh;
+    height: 6vh;
+}
+img {
+    max-height: 100%;
+}
+#displayCurrentWeek {
+    font-size: 1.5vh;
+    padding-top: 1vh;
+    position: absolute;
+    right: 8px;
+}
+#summary {
+    font-size: 1.5vh;
+}
+#loading-screen {
+    display: none;
+    /*
+    display: flex;
+    position: absolute;
+    background-color: white;
+    z-index: 5;
+    height: 100vh;
+    width: 100vw;
+    opacity: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    */
+}
+#loading-image {
+    height: 20vw;
+    width: 20vw;
+}
+#loading-image > img {
+    height: 100%;
+    width: 100%;
+}
+#loading-screen > p {
+    font-size: 18px;
+    font-family: monospace;
+}
+#sugaryLoadIcon > img {
+    display: inline-block;
+    width: 1.4vh;
+    height: 1.4vh;
+}
+#table {
+    display:none;
+    border: 1px solid black;
+}
+th {
+    text-align: center;
+}
+td {
+    text-align: center;
+}
+.icon-table {
+    height: 14px;
+    width: 14px;
+}
+}

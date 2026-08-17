@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="36.884998mm"
+   height="36.884861mm"
+   viewBox="0 0 36.884998 36.884861"
+   version="1.1"
+   id="svg1"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <g
+     id="layer1"
+     transform="translate(-55.32729,-136.78137)">
+    <path
+       style="fill:#00ff00;stroke-width:3.03001;stroke-linecap:round;stroke-linejoin:round"
+       id="rect1"
+       width="36.884998"
+       height="36.884865"
+       x="55.327293"
+       y="136.78136"
+       d="m 61.327293,136.78136 h 24.884999 c 3.324,0 6,2.676 6,6 v 24.88486 c 0,3.324 -2.676,6 -6,6 H 61.327293 c -3.324,0 -6,-2.676 -6,-6 v -24.88486 c 0,-3.324 2.676,-6 6,-6 z"
+       ry="6"
+       rx="6" />
+    <path
+       style="fill:#00ff00;stroke-width:3.03001;stroke-linecap:round;stroke-linejoin:round"
+       d="m 58.275934,155.40249 8.659537,14.99876 z"
+       id="path3" />
+    <path
+       style="fill:#00ff00;stroke-width:3.03001;stroke-linecap:round;stroke-linejoin:round"
+       d="m 60.924841,151.05557 5.09405,14.4671"
+       id="path4" />
+    <rect
+       style="fill:#f9f9f9;stroke-width:3.21888;stroke-linecap:round;stroke-linejoin:round"
+       id="rect4"
+       width="1.924"
+       height="16.459696"
+       x="-23.063332"
+       y="166.03458"
+       ry="0.95196855"
+       rx="0.9659363"
+       transform="matrix(0.90933358,-0.41606783,0.47645755,0.87919748,0,0)" />
+    <rect
+       style="fill:#f9f9f9;stroke-width:6.9722;stroke-linecap:round;stroke-linejoin:round"
+       id="rect4-8"
+       width="4.1054749"
+       height="36.198971"
+       x="156.12732"
+       y="64.639801"
+       ry="0.99739987"
+       rx="0.9976036"
+       transform="matrix(0.81992418,0.57247213,-0.62907767,0.77734245,0,0)" />
+    <rect
+       style="fill:#f9f9f9;stroke-width:2.44913;stroke-linecap:round;stroke-linejoin:round"
+       id="rect5"
+       width="1.2480423"
+       height="1.3923738"
+       x="66.462494"
+       y="168.33713"
+       rx="0.072161913"
+       ry="0.072161913" />
+  </g>
+</svg>

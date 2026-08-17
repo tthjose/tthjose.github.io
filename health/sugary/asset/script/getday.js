@@ -1,0 +1,10 @@
+const today = new Date();
+const monday = new Date(today.setDate(today.getDate() - today.getDay()+1));
+const sunday = new Date(today.setDate(today.getDate() - today.getDay()+7));
+const md = monday.getDate();
+const mm = monday.getMonth()+1;
+const sd = sunday.getDate();
+const sm = sunday.getMonth()+1;
+let result = `${md}/${mm}-${sd}/${sm}`;
+console.log(result);
+document.getElementById("currentWeek").innerHTML = result;
