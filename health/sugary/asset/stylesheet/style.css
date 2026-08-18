@@ -9,6 +9,12 @@
 p {
     margin: 0px;
 }
+table {
+    border-collapse: collapse; 
+}
+table, th, td {
+    border: 1px solid black; 
+}
 @media only screen and (min-width: 921px) {
 body {
     font-family: "notosans";
@@ -88,8 +94,7 @@ section {
     padding-right: 1vw;
 }
 #table {
-    display:none;
-    border: 1px solid black;
+    display: none;
 }
 th {
     text-align: center;
@@ -180,6 +185,10 @@ th {
 }
 td {
     text-align: center;
+}
+tr {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 1fr 1fr 1.5fr;
 }
 .icon-table {
     height: 14px;
